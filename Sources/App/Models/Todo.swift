@@ -1,7 +1,7 @@
 import Fluent
 import Vapor
 
-final class BeepApiModel: Model, Content {
+final class Todo: Model, Content {
     static let schema = "dialogues"
     
     @ID(key: .id)

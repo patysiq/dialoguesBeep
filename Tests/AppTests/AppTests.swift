@@ -18,11 +18,12 @@ final class AppTests: XCTestCase {
                 XCTAssertEqual($0.count, 0)
             }
         }.test(.POST, "todos", beforeRequest: { req in
-            try req.content.encode(Todo(title: "Test My App"))
+            try req.content.encode(Todo())
         }, afterResponse:  { res in
             XCTAssertContent(Todo.self, res) {
                 XCTAssertNotNil($0.id)
-                XCTAssertEqual($0.title, "Test My App")
+                XCTAssertEqual($0.name, "Test My App")
+                XCTAssertEqual($0.text, ["Test My App"])
             }
         }).test(.GET, "todos") { res in
             XCTAssertContent([Todo].self, res) {

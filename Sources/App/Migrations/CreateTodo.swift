@@ -1,6 +1,6 @@
 import Fluent
 
-struct CreateBeep: Migration {
+struct CreateTodo: Migration {
     func prepare(on database: Database) -> EventLoopFuture<Void> {
         return database.schema("dialogues")
             .id()

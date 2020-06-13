@@ -4,8 +4,8 @@ import Vapor
 func routes(_ app: Application) throws {
    
 
-    let beepController = BeepController()
-    app.get("dialogues", use: beepController.index)
-    app.post("tdialogues", use: beepController.create)
-    app.on(.DELETE, "dialogues", ":todoID", use: beepController.delete)
+    let todoController = TodoController()
+    app.get("dialogues", use: todoController.index)
+    app.post("dialogues", use: todoController.create)
+    app.on(.DELETE, "dialogues", ":todoID", use: todoController.delete)
 }
