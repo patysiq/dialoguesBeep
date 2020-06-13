@@ -1,8 +1,15 @@
-//
-//  CreateBeep.swift
-//  App
-//
-//  Created by Patricia Sampaio on 11/06/20.
-//
+import Fluent
 
-import Foundation
+struct CreateBeep: Migration {
+    func prepare(on database: Database) -> EventLoopFuture<Void> {
+        return database.schema("dialogues")
+            .id()
+            .field("name", .string, .required)
+            .field("text", .string, .required)
+            .create()
+    }
+
+    func revert(on database: Database) -> EventLoopFuture<Void> {
+        return database.schema("dialogues").delete()
+    }
+}
