@@ -1,0 +1,4 @@
+module CCryptoBoringSSLShims {
+    umbrella header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/CCryptoBoringSSLShims.h"
+    export *
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "d8e7c0b8119c3e5463fc078c5b5a8231"
+build_time: [1592052100, 720255000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/Tests/AppTests/AppTests.swift": [1592051311, 63017372]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/Tests/AppTests/XCTestManifests.swift": [1592052091, 386784894]

@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/master.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/Exports.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/Exports.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/Exports.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/Exports.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteConfiguration.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDatabase.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDriver.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDriver.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDriver.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDriver~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDriver.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteConverterDelegate.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteError+Database.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteError+Database.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteError+Database.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteError+Database~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteError+Database.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteRow+Database.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteRow+Database.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteRow+Database.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteRow+Database~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/SQLiteRow+Database.swiftdeps"
+  }
+}

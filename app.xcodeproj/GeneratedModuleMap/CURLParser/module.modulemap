@@ -1,0 +1,4 @@
+module CURLParser {
+    umbrella "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CURLParser/include"
+    export *
+}

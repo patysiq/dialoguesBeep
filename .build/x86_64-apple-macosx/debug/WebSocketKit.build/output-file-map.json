@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/master.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPInitialRequestHandler.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.swiftdeps"
+  }
+}

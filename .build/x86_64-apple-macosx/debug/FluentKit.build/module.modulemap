@@ -1,0 +1,4 @@
+module FluentKit {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/FluentKit-Swift.h"
+    requires objc
+}

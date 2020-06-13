@@ -1,0 +1,4 @@
+module CNIOExtrasZlib {
+    umbrella header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+    export *
+}

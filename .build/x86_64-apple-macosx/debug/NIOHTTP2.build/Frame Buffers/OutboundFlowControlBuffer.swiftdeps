@@ -1,0 +1,538 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OutboundFlowControlBuffer"
+provides-nominal:
+- "8NIOHTTP225OutboundFlowControlBufferV"
+provides-member:
+- ["8NIOHTTP225OutboundFlowControlBufferV", ""]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "priorityUpdate"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "-="
+- !private "<"
+- !private "<<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ChannelError"
+- "DataBuffer"
+- !private "Dictionary"
+- "EventLoopPromise"
+- !private "FileRegion"
+- "FloatLiteralType"
+- "HTTP2Frame"
+- "HTTP2StreamID"
+- "IOData"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- "MarkedCircularBuffer"
+- !private "NIOHTTP2Errors"
+- "Optional"
+- "OutboundFlowControlBuffer"
+- "OutboundFrameAction"
+- "Set"
+- "StreamFlowControlState"
+- "UInt"
+- "UInt32"
+- "Void"
+- !private "assert"
+- !private "min"
+- !private "precondition"
+- !private "swap"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "0"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "hasMark"]
+- !private ["SK", "init"]
+- !private ["SK", "mark"]
+- !private ["SK", "markedElementIndex"]
+- !private ["SK", "removeFirst"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "suffix"]
+- !private ["Sz", "init"]
+- !private ["3NIO10ByteBufferV", "readSlice"]
+- !private ["s7CVarArgP", "init"]
+- !private ["3NIO14CircularBufferV", "0"]
+- !private ["Sl", "0"]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "hasMark"]
+- ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "mark"]
+- !private ["Sl", "markedElementIndex"]
+- !private ["Sl", "mutatingForEachValue"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeFirst"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "suffix"]
+- !private ["Sl", "values"]
+- !private ["SL", "init"]
+- !private ["SL", "rootStream"]
+- !private ["s28CustomDebugStringConvertibleP", "apply"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "modify"]
+- !private ["s28CustomDebugStringConvertibleP", "mutatingForEachValue"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s17CustomReflectableP", "apply"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "modify"]
+- !private ["s17CustomReflectableP", "mutatingForEachValue"]
+- ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- !private ["s23CustomStringConvertibleP", "0"]
+- !private ["s23CustomStringConvertibleP", "FileRegion"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- ["s23CustomStringConvertibleP", "byteBuffer"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "fileHandle"]
+- ["s23CustomStringConvertibleP", "fileRegion"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "hasMark"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "mark"]
+- !private ["s23CustomStringConvertibleP", "markedElementIndex"]
+- !private ["s23CustomStringConvertibleP", "moveReaderIndex"]
+- !private ["s23CustomStringConvertibleP", "mutatingForEachValue"]
+- !private ["s23CustomStringConvertibleP", "readSlice"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readerIndex"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "rootStream"]
+- !private ["s23CustomStringConvertibleP", "slicePrefix"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["8NIOHTTP210HTTP2FrameV0C7PayloadO4DataV", "data"]
+- !private ["8NIOHTTP210HTTP2FrameV0C7PayloadO4DataV", "init"]
+- !private ["Se", "apply"]
+- !private ["Se", "contains"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "modify"]
+- !private ["Se", "mutatingForEachValue"]
+- ["Se", "none"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeValue"]
+- ["Se", "some"]
+- !private ["Se", "subscript"]
+- !private ["Se", "values"]
+- !private ["SD", "init"]
+- !private ["SD", "mutatingForEachValue"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["SD", "values"]
+- !private ["SE", "apply"]
+- !private ["SE", "contains"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "modify"]
+- !private ["SE", "mutatingForEachValue"]
+- ["SE", "none"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeValue"]
+- ["SE", "some"]
+- !private ["SE", "subscript"]
+- !private ["SE", "values"]
+- !private ["SQ", "0"]
+- !private ["SQ", "FileRegion"]
+- !private ["SQ", "apply"]
+- !private ["SQ", "assert"]
+- ["SQ", "byteBuffer"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "dependency"]
+- !private ["SQ", "fileHandle"]
+- ["SQ", "fileRegion"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "modify"]
+- !private ["SQ", "moveReaderIndex"]
+- !private ["SQ", "mutatingForEachValue"]
+- ["SQ", "none"]
+- !private ["SQ", "readSlice"]
+- !private ["SQ", "readableBytes"]
+- !private ["SQ", "readerIndex"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "rootStream"]
+- !private ["SQ", "slicePrefix"]
+- ["SQ", "some"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "values"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["s25ExpressibleByArrayLiteralP", "0"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "mutatingForEachValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "rootStream"]
+- !private ["s23ExpressibleByNilLiteralP", "apply"]
+- !private ["s23ExpressibleByNilLiteralP", "modify"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["3NIO10FileRegionV", "fileHandle"]
+- !private ["3NIO10FileRegionV", "init"]
+- !private ["3NIO10FileRegionV", "moveReaderIndex"]
+- !private ["3NIO10FileRegionV", "readerIndex"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "data"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "headers"]
+- ["8NIOHTTP210HTTP2FrameV", "FramePayload"]
+- ["8NIOHTTP210HTTP2FrameV", "StreamPriorityData"]
+- !private ["8NIOHTTP210HTTP2FrameV", "init"]
+- !private ["8NIOHTTP210HTTP2FrameV", "payload"]
+- !private ["8NIOHTTP210HTTP2FrameV", "streamID"]
+- ["8NIOHTTP213HTTP2StreamIDV", "deinit"]
+- !private ["8NIOHTTP213HTTP2StreamIDV", "rootStream"]
+- !private ["SH", "0"]
+- !private ["SH", "apply"]
+- !private ["SH", "contains"]
+- !private ["SH", "dependency"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "modify"]
+- !private ["SH", "mutatingForEachValue"]
+- ["SH", "none"]
+- !private ["SH", "readSlice"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "rootStream"]
+- ["SH", "some"]
+- !private ["SH", "subscript"]
+- !private ["SH", "values"]
+- !private ["3NIO6IODataO", "FileRegion"]
+- ["3NIO6IODataO", "IOData"]
+- ["3NIO6IODataO", "Int"]
+- !private ["3NIO6IODataO", "assert"]
+- ["3NIO6IODataO", "byteBuffer"]
+- ["3NIO6IODataO", "fileRegion"]
+- !private ["3NIO6IODataO", "readableBytes"]
+- !private ["3NIO6IODataO", "slicePrefix"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["3NIO20MarkedCircularBufferV", "append"]
+- !private ["3NIO20MarkedCircularBufferV", "count"]
+- !private ["3NIO20MarkedCircularBufferV", "first"]
+- !private ["3NIO20MarkedCircularBufferV", "hasMark"]
+- !private ["3NIO20MarkedCircularBufferV", "init"]
+- !private ["3NIO20MarkedCircularBufferV", "mark"]
+- !private ["3NIO20MarkedCircularBufferV", "markedElementIndex"]
+- !private ["3NIO20MarkedCircularBufferV", "removeFirst"]
+- !private ["3NIO20MarkedCircularBufferV", "startIndex"]
+- !private ["3NIO20MarkedCircularBufferV", "subscript"]
+- !private ["3NIO20MarkedCircularBufferV", "suffix"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "0"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "hasMark"]
+- !private ["SM", "init"]
+- !private ["SM", "mark"]
+- !private ["SM", "markedElementIndex"]
+- !private ["SM", "removeFirst"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subscript"]
+- !private ["SM", "suffix"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["8NIOHTTP20A5ErrorP", "init"]
+- !private ["8NIOHTTP20A6ErrorsO", "NoSuchStream"]
+- !private ["8NIOHTTP20A6ErrorsO", "PriorityCycle"]
+- !private ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "deinit"]
+- !private ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "init"]
+- !private ["Sj", "init"]
+- ["Sq", "Bool"]
+- ["Sq", "StreamFlowControlState"]
+- ["Sq", "Void"]
+- !private ["Sq", "apply"]
+- !private ["Sq", "modify"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "Bool"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "ChannelError"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "DataBuffer"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "Dictionary"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "EventLoopPromise"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "HTTP2Frame"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "HTTP2StreamID"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "Int"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "Int32"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "MarkedCircularBuffer"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "NIOHTTP2Errors"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "OutboundFrameAction"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "Set"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "StreamFlowControlState"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "UInt32"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "Void"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "assert"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "connectionWindowSize"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "flushReceived"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "flushableStreams"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "init"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "initialWindowSizeChanged"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "invalidateBuffer"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "maxFrameSize"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "min"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "nextFlushedWritableFrame"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "nextStreamToSend"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "priorityUpdate"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "processOutboundFrame"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "streamClosed"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "streamCreated"]
+- !private ["8NIOHTTP225OutboundFlowControlBufferV", "streamDataBuffers"]
+- ["8NIOHTTP225OutboundFlowControlBufferV", "updateWindowOfStream"]
+- !private ["8NIOHTTP219OutboundFrameActionO", "forward"]
+- !private ["8NIOHTTP219OutboundFrameActionO", "nothing"]
+- !private ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "deinit"]
+- !private ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "init"]
+- !private ["Sk", "0"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "hasMark"]
+- !private ["Sk", "init"]
+- !private ["Sk", "mark"]
+- !private ["Sk", "markedElementIndex"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "suffix"]
+- !private ["Sm", "0"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "0"]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "hasMark"]
+- ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "mark"]
+- !private ["ST", "markedElementIndex"]
+- !private ["ST", "mutatingForEachValue"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["ST", "suffix"]
+- !private ["ST", "values"]
+- !private ["Sh", "contains"]
+- !private ["Sh", "first"]
+- ["Sh", "init"]
+- !private ["Sh", "insert"]
+- !private ["Sh", "remove"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "first"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "remove"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["8NIOHTTP210HTTP2FrameV18StreamPriorityDataV", "dependency"]
+- !private ["Sx", "init"]
+- !private ["Sx", "rootStream"]
+- !private ["Su", "init"]
+- !private ["SU", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mutatingForEachValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
+- !private ["s21_ObjectiveCBridgeableP", "apply"]
+- !private ["s21_ObjectiveCBridgeableP", "modify"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sz"
+- !private "3NIO10ByteBufferV"
+- !private "s7CVarArgP"
+- !private "3NIO14CircularBufferV"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "8NIOHTTP210HTTP2FrameV0C7PayloadO4DataV"
+- "Se"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "3NIO16EventLoopPromiseV"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "3NIO10FileRegionV"
+- !private "s17FixedWidthIntegerP"
+- "8NIOHTTP210HTTP2FrameV0C7PayloadO"
+- "8NIOHTTP210HTTP2FrameV"
+- "8NIOHTTP213HTTP2StreamIDV"
+- "SH"
+- "3NIO6IODataO"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "3NIO20MarkedCircularBufferV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "8NIOHTTP20A5ErrorP"
+- !private "8NIOHTTP20A6ErrorsO"
+- !private "8NIOHTTP20A6ErrorsO12NoSuchStreamV"
+- !private "Sj"
+- "Sq"
+- "8NIOHTTP225OutboundFlowControlBufferV"
+- !private "8NIOHTTP219OutboundFrameActionO"
+- !private "8NIOHTTP20A6ErrorsO13PriorityCycleV"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "8NIOHTTP210HTTP2FrameV18StreamPriorityDataV"
+- !private "Sx"
+- !private "Su"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "e282d20187ca607d141b510e415534bb"

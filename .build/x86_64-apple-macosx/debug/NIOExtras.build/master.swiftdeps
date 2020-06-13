@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "2f294c5b0d817d85241782d10675105b"
+build_time: [1592049939, 11120000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugInboundEventsHandler.swift": [1591876891, 61424752]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugOutboundEventsHandler.swift": [1591876891, 61699463]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/FixedLengthFrameDecoder.swift": [1591876891, 61983121]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming+ContentLengthHeader.swift": [1591876891, 62245746]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming.swift": [1591876891, 62445935]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift": [1591876891, 62728814]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldPrepender.swift": [1591876891, 63115841]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LineBasedFrameDecoder.swift": [1591876891, 63404738]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOExtrasError.swift": [1591876891, 63757910]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/QuiescingHelper.swift": [1591876891, 64113660]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/RequestResponseHandler.swift": [1591876891, 64437083]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/WritePCAPHandler.swift": [1591876891, 125377280]

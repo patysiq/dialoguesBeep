@@ -1,0 +1,613 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OptionalParentProperty"
+provides-nominal:
+- "9FluentKit22OptionalParentPropertyC"
+provides-member:
+- ["9FluentKit5ModelP", ""]
+- ["9FluentKit22OptionalParentPropertyC", ""]
+- ["9FluentKit5ModelP", "OptionalParent"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AnyProperty"
+- "AssignmentPrecedence"
+- "Database"
+- "DatabaseInput"
+- "DatabaseOutput"
+- "Decoder"
+- "EagerLoadBuilder"
+- "EagerLoadable"
+- "EagerLoader"
+- "Encoder"
+- "EventLoopFuture"
+- "FieldKey"
+- "FieldProperty"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "KeyPath"
+- "Model"
+- !private "ModelCodingKey"
+- !private "OptionalParentEagerLoader"
+- "OptionalParentProperty"
+- "PropertyProtocol"
+- "QueryBuilder"
+- "Relation"
+- !private "Set"
+- "String"
+- !private "StringLiteralType"
+- !private "ThroughOptionalParentEagerLoader"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "fatalError"
+- !private "~~"
+depends-member:
+- ["9FluentKit14AnyEagerLoaderP", "Model"]
+- !private ["9FluentKit14AnyEagerLoaderP", "Set"]
+- !private ["9FluentKit14AnyEagerLoaderP", ""]
+- ["9FluentKit14AnyEagerLoaderP", "_Default_Model"]
+- ["9FluentKit14AnyEagerLoaderP", "anyRun"]
+- !private ["9FluentKit14AnyEagerLoaderP", "init"]
+- !private ["9FluentKit14AnyEagerLoaderP", "loader"]
+- !private ["9FluentKit14AnyEagerLoaderP", "relationKey"]
+- ["9FluentKit14AnyEagerLoaderP", "run"]
+- !private ["9FluentKit8AnyFieldP", "decode"]
+- !private ["9FluentKit8AnyFieldP", "init"]
+- !private ["9FluentKit8AnyFieldP", "input"]
+- !private ["9FluentKit8AnyFieldP", "key"]
+- !private ["9FluentKit8AnyFieldP", "output"]
+- ["9FluentKit8AnyModelP", "IDValue"]
+- ["9FluentKit8AnyModelP", "Model"]
+- ["9FluentKit8AnyModelP", "OptionalParent"]
+- ["9FluentKit8AnyModelP", "OptionalParentProperty"]
+- !private ["9FluentKit8AnyModelP", "_$id"]
+- !private ["9FluentKit8AnyModelP", "id"]
+- !private ["9FluentKit8AnyModelP", "query"]
+- !private ["9FluentKit8AnyModelP", "subscript"]
+- !private ["9FluentKit11AnyPropertyP", "$id"]
+- ["9FluentKit11AnyPropertyP", "FieldProperty"]
+- ["9FluentKit11AnyPropertyP", "From"]
+- ["9FluentKit11AnyPropertyP", "Model"]
+- !private ["9FluentKit11AnyPropertyP", "ModelCodingKey"]
+- !private ["9FluentKit11AnyPropertyP", "OptionalParentEagerLoader"]
+- ["9FluentKit11AnyPropertyP", "RelatedValue"]
+- !private ["9FluentKit11AnyPropertyP", "ThroughOptionalParentEagerLoader"]
+- ["9FluentKit11AnyPropertyP", "To"]
+- ["9FluentKit11AnyPropertyP", "Value"]
+- ["9FluentKit11AnyPropertyP", ""]
+- ["9FluentKit11AnyPropertyP", "_Default_From"]
+- ["9FluentKit11AnyPropertyP", "_Default_RelatedValue"]
+- ["9FluentKit11AnyPropertyP", "_Default_To"]
+- !private ["9FluentKit11AnyPropertyP", "_id"]
+- ["9FluentKit11AnyPropertyP", "anyValue"]
+- ["9FluentKit11AnyPropertyP", "anyValueType"]
+- ["9FluentKit11AnyPropertyP", "decode"]
+- ["9FluentKit11AnyPropertyP", "eagerLoad"]
+- ["9FluentKit11AnyPropertyP", "encode"]
+- !private ["9FluentKit11AnyPropertyP", "fatalError"]
+- !private ["9FluentKit11AnyPropertyP", "id"]
+- !private ["9FluentKit11AnyPropertyP", "init"]
+- ["9FluentKit11AnyPropertyP", "input"]
+- !private ["9FluentKit11AnyPropertyP", "key"]
+- ["9FluentKit11AnyPropertyP", "load"]
+- ["9FluentKit11AnyPropertyP", "name"]
+- ["9FluentKit11AnyPropertyP", "nested"]
+- ["9FluentKit11AnyPropertyP", "output"]
+- ["9FluentKit11AnyPropertyP", "path"]
+- !private ["9FluentKit11AnyPropertyP", "query"]
+- ["9FluentKit11AnyPropertyP", "value"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s9CodingKeyP", "string"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "IDValue"]
+- ["s23CustomStringConvertibleP", "Model"]
+- ["s23CustomStringConvertibleP", "OptionalParent"]
+- ["s23CustomStringConvertibleP", "OptionalParentProperty"]
+- !private ["s23CustomStringConvertibleP", "_$id"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "query"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["9FluentKit8DatabaseP", "eventLoop"]
+- ["Se", "IDValue"]
+- ["Se", "Model"]
+- ["Se", "OptionalParent"]
+- ["Se", "OptionalParentProperty"]
+- !private ["Se", "_$id"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "id"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "query"]
+- !private ["Se", "subscript"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["9FluentKit16EagerLoadBuilderP", "add"]
+- !private ["9FluentKit16EagerLoadBuilderP", "all"]
+- !private ["9FluentKit16EagerLoadBuilderP", "filter"]
+- !private ["9FluentKit16EagerLoadBuilderP", "first"]
+- !private ["9FluentKit13EagerLoadableP", "$id"]
+- ["9FluentKit13EagerLoadableP", "FieldProperty"]
+- ["9FluentKit13EagerLoadableP", "From"]
+- ["9FluentKit13EagerLoadableP", "Model"]
+- !private ["9FluentKit13EagerLoadableP", "ModelCodingKey"]
+- !private ["9FluentKit13EagerLoadableP", "OptionalParentEagerLoader"]
+- ["9FluentKit13EagerLoadableP", "RelatedValue"]
+- !private ["9FluentKit13EagerLoadableP", "ThroughOptionalParentEagerLoader"]
+- ["9FluentKit13EagerLoadableP", "To"]
+- ["9FluentKit13EagerLoadableP", "Value"]
+- ["9FluentKit13EagerLoadableP", ""]
+- ["9FluentKit13EagerLoadableP", "_Default_From"]
+- ["9FluentKit13EagerLoadableP", "_Default_RelatedValue"]
+- ["9FluentKit13EagerLoadableP", "_Default_To"]
+- !private ["9FluentKit13EagerLoadableP", "_id"]
+- ["9FluentKit13EagerLoadableP", "anyValue"]
+- ["9FluentKit13EagerLoadableP", "anyValueType"]
+- ["9FluentKit13EagerLoadableP", "decode"]
+- ["9FluentKit13EagerLoadableP", "eagerLoad"]
+- ["9FluentKit13EagerLoadableP", "encode"]
+- !private ["9FluentKit13EagerLoadableP", "fatalError"]
+- !private ["9FluentKit13EagerLoadableP", "id"]
+- ["9FluentKit13EagerLoadableP", "input"]
+- ["9FluentKit13EagerLoadableP", "load"]
+- ["9FluentKit13EagerLoadableP", "name"]
+- ["9FluentKit13EagerLoadableP", "nested"]
+- ["9FluentKit13EagerLoadableP", "output"]
+- ["9FluentKit13EagerLoadableP", "path"]
+- !private ["9FluentKit13EagerLoadableP", "query"]
+- ["9FluentKit13EagerLoadableP", "value"]
+- ["9FluentKit11EagerLoaderP", "Model"]
+- !private ["9FluentKit11EagerLoaderP", "Set"]
+- !private ["9FluentKit11EagerLoaderP", ""]
+- ["9FluentKit11EagerLoaderP", "_Default_Model"]
+- ["9FluentKit11EagerLoaderP", "anyRun"]
+- !private ["9FluentKit11EagerLoaderP", "init"]
+- !private ["9FluentKit11EagerLoaderP", "loader"]
+- !private ["9FluentKit11EagerLoaderP", "relationKey"]
+- ["9FluentKit11EagerLoaderP", "run"]
+- ["SE", "IDValue"]
+- ["SE", "Model"]
+- ["SE", "OptionalParent"]
+- ["SE", "OptionalParentProperty"]
+- !private ["SE", "_$id"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "id"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "query"]
+- !private ["SE", "subscript"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "map"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["9FluentKit8FieldKeyO", "deinit"]
+- !private ["9FluentKit13FieldPropertyC", "decode"]
+- !private ["9FluentKit13FieldPropertyC", "deinit"]
+- !private ["9FluentKit13FieldPropertyC", "init"]
+- !private ["9FluentKit13FieldPropertyC", "input"]
+- !private ["9FluentKit13FieldPropertyC", "key"]
+- !private ["9FluentKit13FieldPropertyC", "output"]
+- !private ["9FluentKit13FieldProtocolP", "decode"]
+- !private ["9FluentKit13FieldProtocolP", "init"]
+- !private ["9FluentKit13FieldProtocolP", "input"]
+- !private ["9FluentKit13FieldProtocolP", "key"]
+- !private ["9FluentKit13FieldProtocolP", "output"]
+- ["9FluentKit6FieldsP", "IDValue"]
+- ["9FluentKit6FieldsP", "Model"]
+- ["9FluentKit6FieldsP", "OptionalParent"]
+- ["9FluentKit6FieldsP", "OptionalParentProperty"]
+- !private ["9FluentKit6FieldsP", "_$id"]
+- !private ["9FluentKit6FieldsP", "id"]
+- !private ["9FluentKit6FieldsP", "query"]
+- !private ["9FluentKit6FieldsP", "subscript"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["9FluentKit10IDPropertyC", "deinit"]
+- !private ["s22KeyedDecodingContainerV", "superDecoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "superDecoder"]
+- ["9FluentKit5ModelP", "IDValue"]
+- ["9FluentKit5ModelP", "Model"]
+- ["9FluentKit5ModelP", "OptionalParent"]
+- ["9FluentKit5ModelP", "OptionalParentProperty"]
+- !private ["9FluentKit5ModelP", "_$id"]
+- !private ["9FluentKit5ModelP", "id"]
+- !private ["9FluentKit5ModelP", "query"]
+- !private ["9FluentKit5ModelP", "subscript"]
+- !private ["9FluentKit14ModelCodingKeyO", "deinit"]
+- !private ["9FluentKit14ModelCodingKeyO", "string"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["9FluentKit22OptionalParentPropertyC", "$id"]
+- ["9FluentKit22OptionalParentPropertyC", "AnyProperty"]
+- ["9FluentKit22OptionalParentPropertyC", "Database"]
+- ["9FluentKit22OptionalParentPropertyC", "DatabaseInput"]
+- ["9FluentKit22OptionalParentPropertyC", "DatabaseOutput"]
+- ["9FluentKit22OptionalParentPropertyC", "Decoder"]
+- ["9FluentKit22OptionalParentPropertyC", "EagerLoadBuilder"]
+- ["9FluentKit22OptionalParentPropertyC", "EagerLoader"]
+- ["9FluentKit22OptionalParentPropertyC", "Encoder"]
+- ["9FluentKit22OptionalParentPropertyC", "EventLoopFuture"]
+- ["9FluentKit22OptionalParentPropertyC", "FieldKey"]
+- ["9FluentKit22OptionalParentPropertyC", "FieldProperty"]
+- ["9FluentKit22OptionalParentPropertyC", "From"]
+- ["9FluentKit22OptionalParentPropertyC", "KeyPath"]
+- ["9FluentKit22OptionalParentPropertyC", "Model"]
+- !private ["9FluentKit22OptionalParentPropertyC", "ModelCodingKey"]
+- !private ["9FluentKit22OptionalParentPropertyC", "OptionalParentEagerLoader"]
+- ["9FluentKit22OptionalParentPropertyC", "OptionalParentProperty"]
+- ["9FluentKit22OptionalParentPropertyC", "QueryBuilder"]
+- ["9FluentKit22OptionalParentPropertyC", "RelatedValue"]
+- ["9FluentKit22OptionalParentPropertyC", "String"]
+- !private ["9FluentKit22OptionalParentPropertyC", "ThroughOptionalParentEagerLoader"]
+- ["9FluentKit22OptionalParentPropertyC", "To"]
+- ["9FluentKit22OptionalParentPropertyC", "Value"]
+- ["9FluentKit22OptionalParentPropertyC", "Void"]
+- ["9FluentKit22OptionalParentPropertyC", "_Default_From"]
+- ["9FluentKit22OptionalParentPropertyC", "_Default_RelatedValue"]
+- ["9FluentKit22OptionalParentPropertyC", "_Default_To"]
+- !private ["9FluentKit22OptionalParentPropertyC", "_id"]
+- ["9FluentKit22OptionalParentPropertyC", "anyValue"]
+- ["9FluentKit22OptionalParentPropertyC", "anyValueType"]
+- ["9FluentKit22OptionalParentPropertyC", "decode"]
+- ["9FluentKit22OptionalParentPropertyC", "deinit"]
+- ["9FluentKit22OptionalParentPropertyC", "eagerLoad"]
+- ["9FluentKit22OptionalParentPropertyC", "encode"]
+- !private ["9FluentKit22OptionalParentPropertyC", "fatalError"]
+- ["9FluentKit22OptionalParentPropertyC", "id"]
+- ["9FluentKit22OptionalParentPropertyC", "init"]
+- ["9FluentKit22OptionalParentPropertyC", "input"]
+- ["9FluentKit22OptionalParentPropertyC", "load"]
+- ["9FluentKit22OptionalParentPropertyC", "name"]
+- ["9FluentKit22OptionalParentPropertyC", "nested"]
+- ["9FluentKit22OptionalParentPropertyC", "output"]
+- ["9FluentKit22OptionalParentPropertyC", "path"]
+- ["9FluentKit22OptionalParentPropertyC", "projectedValue"]
+- ["9FluentKit22OptionalParentPropertyC", "query"]
+- ["9FluentKit22OptionalParentPropertyC", "value"]
+- ["9FluentKit22OptionalParentPropertyC", "wrappedValue"]
+- !private ["9FluentKit16PropertyProtocolP", "$id"]
+- ["9FluentKit16PropertyProtocolP", "FieldProperty"]
+- ["9FluentKit16PropertyProtocolP", "From"]
+- ["9FluentKit16PropertyProtocolP", "Model"]
+- !private ["9FluentKit16PropertyProtocolP", "ModelCodingKey"]
+- !private ["9FluentKit16PropertyProtocolP", "OptionalParentEagerLoader"]
+- ["9FluentKit16PropertyProtocolP", "RelatedValue"]
+- !private ["9FluentKit16PropertyProtocolP", "ThroughOptionalParentEagerLoader"]
+- ["9FluentKit16PropertyProtocolP", "To"]
+- ["9FluentKit16PropertyProtocolP", "Value"]
+- ["9FluentKit16PropertyProtocolP", ""]
+- ["9FluentKit16PropertyProtocolP", "_Default_From"]
+- ["9FluentKit16PropertyProtocolP", "_Default_RelatedValue"]
+- ["9FluentKit16PropertyProtocolP", "_Default_To"]
+- !private ["9FluentKit16PropertyProtocolP", "_id"]
+- ["9FluentKit16PropertyProtocolP", "anyValue"]
+- ["9FluentKit16PropertyProtocolP", "anyValueType"]
+- ["9FluentKit16PropertyProtocolP", "decode"]
+- ["9FluentKit16PropertyProtocolP", "eagerLoad"]
+- ["9FluentKit16PropertyProtocolP", "encode"]
+- !private ["9FluentKit16PropertyProtocolP", "fatalError"]
+- !private ["9FluentKit16PropertyProtocolP", "id"]
+- !private ["9FluentKit16PropertyProtocolP", "init"]
+- ["9FluentKit16PropertyProtocolP", "input"]
+- !private ["9FluentKit16PropertyProtocolP", "key"]
+- ["9FluentKit16PropertyProtocolP", "load"]
+- ["9FluentKit16PropertyProtocolP", "name"]
+- ["9FluentKit16PropertyProtocolP", "nested"]
+- ["9FluentKit16PropertyProtocolP", "output"]
+- ["9FluentKit16PropertyProtocolP", "path"]
+- !private ["9FluentKit16PropertyProtocolP", "query"]
+- ["9FluentKit16PropertyProtocolP", "value"]
+- !private ["9FluentKit12QueryBuilderC", "all"]
+- !private ["9FluentKit12QueryBuilderC", "filter"]
+- !private ["9FluentKit12QueryBuilderC", "first"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["9FluentKit8RelationP", "$id"]
+- ["9FluentKit8RelationP", "FieldProperty"]
+- ["9FluentKit8RelationP", "From"]
+- ["9FluentKit8RelationP", "Model"]
+- !private ["9FluentKit8RelationP", "ModelCodingKey"]
+- !private ["9FluentKit8RelationP", "OptionalParentEagerLoader"]
+- ["9FluentKit8RelationP", "RelatedValue"]
+- !private ["9FluentKit8RelationP", "ThroughOptionalParentEagerLoader"]
+- ["9FluentKit8RelationP", "To"]
+- ["9FluentKit8RelationP", "Value"]
+- ["9FluentKit8RelationP", ""]
+- ["9FluentKit8RelationP", "_Default_From"]
+- ["9FluentKit8RelationP", "_Default_RelatedValue"]
+- ["9FluentKit8RelationP", "_Default_To"]
+- !private ["9FluentKit8RelationP", "_id"]
+- ["9FluentKit8RelationP", "anyValue"]
+- ["9FluentKit8RelationP", "anyValueType"]
+- ["9FluentKit8RelationP", "decode"]
+- ["9FluentKit8RelationP", "eagerLoad"]
+- ["9FluentKit8RelationP", "encode"]
+- !private ["9FluentKit8RelationP", "fatalError"]
+- !private ["9FluentKit8RelationP", "id"]
+- ["9FluentKit8RelationP", "input"]
+- ["9FluentKit8RelationP", "load"]
+- ["9FluentKit8RelationP", "name"]
+- ["9FluentKit8RelationP", "nested"]
+- ["9FluentKit8RelationP", "output"]
+- ["9FluentKit8RelationP", "path"]
+- !private ["9FluentKit8RelationP", "query"]
+- ["9FluentKit8RelationP", "value"]
+- ["9FluentKit6SchemaP", "IDValue"]
+- ["9FluentKit6SchemaP", "Model"]
+- ["9FluentKit6SchemaP", "OptionalParent"]
+- ["9FluentKit6SchemaP", "OptionalParentProperty"]
+- !private ["9FluentKit6SchemaP", "_$id"]
+- !private ["9FluentKit6SchemaP", "id"]
+- !private ["9FluentKit6SchemaP", "query"]
+- !private ["9FluentKit6SchemaP", "subscript"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["Sh", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- "9FluentKit14AnyEagerLoaderP"
+- !private "9FluentKit8AnyFieldP"
+- "9FluentKit8AnyModelP"
+- "9FluentKit11AnyPropertyP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "9FluentKit8DatabaseP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "9FluentKit16EagerLoadBuilderP"
+- "9FluentKit13EagerLoadableP"
+- "9FluentKit11EagerLoaderP"
+- "SE"
+- !private "s7EncoderP"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "9FluentKit8FieldKeyO"
+- !private "9FluentKit13FieldPropertyC"
+- !private "9FluentKit13FieldProtocolP"
+- "9FluentKit6FieldsP"
+- !private "SH"
+- !private "9FluentKit10IDPropertyC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "9FluentKit5ModelP"
+- !private "9FluentKit14ModelCodingKeyO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "9FluentKit22OptionalParentPropertyC"
+- "9FluentKit16PropertyProtocolP"
+- !private "9FluentKit12QueryBuilderC"
+- !private "Sk"
+- !private "Sm"
+- "9FluentKit8RelationP"
+- "9FluentKit6SchemaP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b89c40bce6f3de4401b666b9fd3d2ca9"

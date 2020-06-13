@@ -1,0 +1,287 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Lock"
+- "ConditionLock"
+provides-nominal:
+- "21NIOConcurrencyHelpers4LockC"
+- "21NIOConcurrencyHelpers13ConditionLockC"
+provides-member:
+- ["21NIOConcurrencyHelpers4LockC", ""]
+- ["21NIOConcurrencyHelpers13ConditionLockC", ""]
+- ["21NIOConcurrencyHelpers4LockC", "withLock"]
+- ["21NIOConcurrencyHelpers4LockC", "withLockVoid"]
+provides-dynamic-lookup:
+- "lock"
+- "mutex"
+- "unlock"
+- "withLock"
+- "withLockVoid"
+depends-top-level:
+- !private "%"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ConditionLock"
+- "Double"
+- !private "ETIMEDOUT"
+- "Equatable"
+- "FloatLiteralType"
+- !private "Int"
+- !private "Int64"
+- "IntegerLiteralType"
+- "Lock"
+- !private "PTHREAD_MUTEX_ERRORCHECK"
+- !private "StringLiteralType"
+- "UnsafeMutablePointer"
+- "Void"
+- !private "assert"
+- !private "fatalError"
+- !private "gettimeofday"
+- !private "precondition"
+- !private "pthread_cond_broadcast"
+- !private "pthread_cond_destroy"
+- !private "pthread_cond_init"
+- "pthread_cond_t"
+- !private "pthread_cond_timedwait"
+- !private "pthread_cond_wait"
+- !private "pthread_mutex_destroy"
+- !private "pthread_mutex_init"
+- !private "pthread_mutex_lock"
+- "pthread_mutex_t"
+- !private "pthread_mutex_unlock"
+- !private "pthread_mutexattr_init"
+- !private "pthread_mutexattr_settype"
+- !private "pthread_mutexattr_t"
+- !private "timespec"
+- !private "timeval"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "init"]
+- ["SL", "allocate"]
+- !private ["SL", "deallocate"]
+- !private ["SL", "init"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "Bool"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "Double"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "ETIMEDOUT"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "Int"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "Int64"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "Lock"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "UnsafeMutablePointer"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "_value"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "assert"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "cond"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "deinit"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "fatalError"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "gettimeofday"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "init"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "lock"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "mutex"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "precondition"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "pthread_cond_broadcast"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "pthread_cond_destroy"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "pthread_cond_init"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "pthread_cond_t"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "pthread_cond_timedwait"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "pthread_cond_wait"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "timespec"]
+- !private ["21NIOConcurrencyHelpers13ConditionLockC", "timeval"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "unlock"]
+- ["21NIOConcurrencyHelpers13ConditionLockC", "value"]
+- ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "init"]
+- !private ["SE", "init"]
+- ["SQ", "allocate"]
+- !private ["SQ", "deallocate"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- ["SH", "allocate"]
+- !private ["SH", "deallocate"]
+- !private ["SH", "init"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s5Int64V", "init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "PTHREAD_MUTEX_ERRORCHECK"]
+- ["21NIOConcurrencyHelpers4LockC", "UnsafeMutablePointer"]
+- ["21NIOConcurrencyHelpers4LockC", "Void"]
+- ["21NIOConcurrencyHelpers4LockC", "deinit"]
+- ["21NIOConcurrencyHelpers4LockC", "init"]
+- ["21NIOConcurrencyHelpers4LockC", "lock"]
+- !private ["21NIOConcurrencyHelpers4LockC", "mutex"]
+- !private ["21NIOConcurrencyHelpers4LockC", "precondition"]
+- !private ["21NIOConcurrencyHelpers4LockC", "pthread_mutex_destroy"]
+- !private ["21NIOConcurrencyHelpers4LockC", "pthread_mutex_init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "pthread_mutex_lock"]
+- ["21NIOConcurrencyHelpers4LockC", "pthread_mutex_t"]
+- !private ["21NIOConcurrencyHelpers4LockC", "pthread_mutex_unlock"]
+- !private ["21NIOConcurrencyHelpers4LockC", "pthread_mutexattr_init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "pthread_mutexattr_settype"]
+- !private ["21NIOConcurrencyHelpers4LockC", "pthread_mutexattr_t"]
+- ["21NIOConcurrencyHelpers4LockC", "unlock"]
+- ["21NIOConcurrencyHelpers4LockC", "withLock"]
+- ["21NIOConcurrencyHelpers4LockC", "withLockVoid"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["Sj", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["Sx", "allocate"]
+- !private ["Sx", "deallocate"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["So27_opaque_pthread_mutexattr_tV", "init"]
+- !private ["So8timespecV", "init"]
+- !private ["So8timespecV", "tv_nsec"]
+- !private ["So8timespecV", "tv_sec"]
+- !private ["So7timevalV", "init"]
+- !private ["So7timevalV", "tv_sec"]
+- !private ["So7timevalV", "tv_usec"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SB"
+- !private "Sz"
+- "s7CVarArgP"
+- "SL"
+- "21NIOConcurrencyHelpers13ConditionLockC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- !private "Si"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- "21NIOConcurrencyHelpers4LockC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "Sj"
+- !private "s10SIMDScalarP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "Sp"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s8_PointerP"
+- !private "So27_opaque_pthread_mutexattr_tV"
+- !private "So8timespecV"
+- !private "So7timevalV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "ddf90c9a6d8c5248ab11870222a5bb32"

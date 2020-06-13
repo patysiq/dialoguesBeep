@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "865542a57d42211e59b58b5247e26a54"
+build_time: [1592049931, 678175000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1591876897, 154891131]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1591876897, 155352585]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1591876897, 155818593]

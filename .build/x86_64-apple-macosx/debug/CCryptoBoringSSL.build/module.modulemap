@@ -1,0 +1,4 @@
+module CCryptoBoringSSL {
+    umbrella header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL.h"
+    export *
+}

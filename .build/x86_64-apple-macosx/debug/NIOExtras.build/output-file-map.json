@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/master.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugInboundEventsHandler.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugInboundEventsHandler.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugInboundEventsHandler.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugInboundEventsHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugInboundEventsHandler.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugOutboundEventsHandler.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugOutboundEventsHandler.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugOutboundEventsHandler.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugOutboundEventsHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/DebugOutboundEventsHandler.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/FixedLengthFrameDecoder.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/FixedLengthFrameDecoder.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/FixedLengthFrameDecoder.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/FixedLengthFrameDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/FixedLengthFrameDecoder.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming+ContentLengthHeader.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming+ContentLengthHeader.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming+ContentLengthHeader.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming+ContentLengthHeader~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming+ContentLengthHeader.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/JSONRPCFraming.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldBasedFrameDecoder.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldBasedFrameDecoder.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldBasedFrameDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldBasedFrameDecoder.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldPrepender.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldPrepender.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldPrepender.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldPrepender~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LengthFieldPrepender.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LineBasedFrameDecoder.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LineBasedFrameDecoder.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LineBasedFrameDecoder.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LineBasedFrameDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/LineBasedFrameDecoder.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOExtrasError.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/NIOExtrasError.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/NIOExtrasError.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/NIOExtrasError~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/NIOExtrasError.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/QuiescingHelper.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/QuiescingHelper.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/QuiescingHelper.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/QuiescingHelper~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/QuiescingHelper.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/RequestResponseHandler.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/RequestResponseHandler.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/RequestResponseHandler.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/RequestResponseHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/RequestResponseHandler.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/NIOExtras/WritePCAPHandler.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/WritePCAPHandler.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/WritePCAPHandler.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/WritePCAPHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/WritePCAPHandler.swiftdeps"
+  }
+}

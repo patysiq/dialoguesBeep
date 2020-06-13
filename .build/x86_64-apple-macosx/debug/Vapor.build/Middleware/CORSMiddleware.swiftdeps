@@ -1,0 +1,837 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CORSMiddleware"
+provides-nominal:
+- "5Vapor14CORSMiddlewareC"
+- "5Vapor14CORSMiddlewareC18AllowOriginSettingO"
+- "5Vapor14CORSMiddlewareC13ConfigurationV"
+provides-member:
+- ["5Vapor14CORSMiddlewareC", ""]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", ""]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", ""]
+provides-dynamic-lookup:
+- "configuration"
+- "isPreflight"
+- "respond"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CORSMiddleware"
+- "EventLoopFuture"
+- "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "Int"
+- "IntegerLiteralType"
+- "Middleware"
+- "Request"
+- "Responder"
+- "Response"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+depends-member:
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "Request"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "String"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "all"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "custom"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "header"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "none"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "originBased"]
+- !private ["Sa", "first"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- ["SK", "Name"]
+- !private ["SK", "accessControlAllowCredentials"]
+- !private ["SK", "accessControlAllowHeaders"]
+- !private ["SK", "accessControlAllowMethods"]
+- !private ["SK", "accessControlAllowOrigin"]
+- !private ["SK", "accessControlExpose"]
+- !private ["SK", "accessControlMaxAge"]
+- !private ["SK", "accessControlRequestMethod"]
+- !private ["SK", "contains"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["SK", "origin"]
+- !private ["SK", "replaceOrAdd"]
+- !private ["SK", "subscript"]
+- ["5Vapor14CORSMiddlewareC", "AllowOriginSetting"]
+- ["5Vapor14CORSMiddlewareC", "Bool"]
+- ["5Vapor14CORSMiddlewareC", "Configuration"]
+- ["5Vapor14CORSMiddlewareC", "EventLoopFuture"]
+- ["5Vapor14CORSMiddlewareC", "HTTPHeaders"]
+- ["5Vapor14CORSMiddlewareC", "HTTPMethod"]
+- ["5Vapor14CORSMiddlewareC", "Int"]
+- ["5Vapor14CORSMiddlewareC", "Request"]
+- ["5Vapor14CORSMiddlewareC", "Responder"]
+- ["5Vapor14CORSMiddlewareC", "Response"]
+- ["5Vapor14CORSMiddlewareC", "String"]
+- ["5Vapor14CORSMiddlewareC", "configuration"]
+- ["5Vapor14CORSMiddlewareC", "deinit"]
+- ["5Vapor14CORSMiddlewareC", "init"]
+- ["5Vapor14CORSMiddlewareC", "respond"]
+- !private ["s7CVarArgP", "accessControlAllowCredentials"]
+- !private ["s7CVarArgP", "accessControlAllowHeaders"]
+- !private ["s7CVarArgP", "accessControlAllowMethods"]
+- !private ["s7CVarArgP", "accessControlAllowOrigin"]
+- !private ["s7CVarArgP", "accessControlExpose"]
+- !private ["s7CVarArgP", "accessControlMaxAge"]
+- !private ["s7CVarArgP", "accessControlRequestMethod"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "origin"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowCredentials"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowHeaders"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowMethods"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowOrigin"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlExpose"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlMaxAge"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlRequestMethod"]
+- !private ["5Vapor22CodingKeyRepresentableP", "contains"]
+- !private ["5Vapor22CodingKeyRepresentableP", "init"]
+- !private ["5Vapor22CodingKeyRepresentableP", "origin"]
+- ["Sl", "Name"]
+- !private ["Sl", "accessControlAllowCredentials"]
+- !private ["Sl", "accessControlAllowHeaders"]
+- !private ["Sl", "accessControlAllowMethods"]
+- !private ["Sl", "accessControlAllowOrigin"]
+- !private ["Sl", "accessControlExpose"]
+- !private ["Sl", "accessControlMaxAge"]
+- !private ["Sl", "accessControlRequestMethod"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["Sl", "origin"]
+- !private ["Sl", "replaceOrAdd"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "accessControlAllowCredentials"]
+- !private ["SL", "accessControlAllowHeaders"]
+- !private ["SL", "accessControlAllowMethods"]
+- !private ["SL", "accessControlAllowOrigin"]
+- !private ["SL", "accessControlExpose"]
+- !private ["SL", "accessControlMaxAge"]
+- !private ["SL", "accessControlRequestMethod"]
+- !private ["SL", "contains"]
+- !private ["SL", "init"]
+- !private ["SL", "origin"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "AllowOriginSetting"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "Bool"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "Configuration"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "HTTPHeaders"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "HTTPMethod"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "Int"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "String"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowCredentials"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowedHeaders"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowedMethods"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowedOrigin"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "cacheExpiration"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "default"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "exposedHeaders"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "init"]
+- !private ["5Vapor7ContentP", "accessControlAllowCredentials"]
+- !private ["5Vapor7ContentP", "accessControlAllowHeaders"]
+- !private ["5Vapor7ContentP", "accessControlAllowMethods"]
+- !private ["5Vapor7ContentP", "accessControlAllowOrigin"]
+- !private ["5Vapor7ContentP", "accessControlExpose"]
+- !private ["5Vapor7ContentP", "accessControlMaxAge"]
+- !private ["5Vapor7ContentP", "accessControlRequestMethod"]
+- !private ["5Vapor7ContentP", "contains"]
+- !private ["5Vapor7ContentP", "first"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "joined"]
+- !private ["5Vapor7ContentP", "map"]
+- !private ["5Vapor7ContentP", "origin"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowCredentials"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowHeaders"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowMethods"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowOrigin"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlExpose"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlMaxAge"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlRequestMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceOrAdd"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "accessControlAllowCredentials"]
+- !private ["s17CustomReflectableP", "accessControlAllowHeaders"]
+- !private ["s17CustomReflectableP", "accessControlAllowMethods"]
+- !private ["s17CustomReflectableP", "accessControlAllowOrigin"]
+- !private ["s17CustomReflectableP", "accessControlExpose"]
+- !private ["s17CustomReflectableP", "accessControlMaxAge"]
+- !private ["s17CustomReflectableP", "accessControlRequestMethod"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "origin"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "accept"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowCredentials"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowHeaders"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowMethods"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowOrigin"]
+- !private ["s23CustomStringConvertibleP", "accessControlExpose"]
+- !private ["s23CustomStringConvertibleP", "accessControlMaxAge"]
+- !private ["s23CustomStringConvertibleP", "accessControlRequestMethod"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "authorization"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "contentType"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "eventLoop"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isPreflight"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "method"]
+- !private ["s23CustomStringConvertibleP", "origin"]
+- !private ["s23CustomStringConvertibleP", "replaceOrAdd"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "xRequestedWith"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "Name"]
+- !private ["Se", "accept"]
+- !private ["Se", "accessControlAllowCredentials"]
+- !private ["Se", "accessControlAllowHeaders"]
+- !private ["Se", "accessControlAllowMethods"]
+- !private ["Se", "accessControlAllowOrigin"]
+- !private ["Se", "accessControlExpose"]
+- !private ["Se", "accessControlMaxAge"]
+- !private ["Se", "accessControlRequestMethod"]
+- !private ["Se", "authorization"]
+- !private ["Se", "contains"]
+- !private ["Se", "contentType"]
+- !private ["Se", "description"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "origin"]
+- !private ["Se", "replaceOrAdd"]
+- !private ["Se", "subscript"]
+- !private ["Se", "xRequestedWith"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "Name"]
+- !private ["SE", "accept"]
+- !private ["SE", "accessControlAllowCredentials"]
+- !private ["SE", "accessControlAllowHeaders"]
+- !private ["SE", "accessControlAllowMethods"]
+- !private ["SE", "accessControlAllowOrigin"]
+- !private ["SE", "accessControlExpose"]
+- !private ["SE", "accessControlMaxAge"]
+- !private ["SE", "accessControlRequestMethod"]
+- !private ["SE", "authorization"]
+- !private ["SE", "contains"]
+- !private ["SE", "contentType"]
+- !private ["SE", "description"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "origin"]
+- !private ["SE", "replaceOrAdd"]
+- !private ["SE", "subscript"]
+- !private ["SE", "xRequestedWith"]
+- !private ["SQ", "DELETE"]
+- !private ["SQ", "GET"]
+- ["SQ", "Name"]
+- !private ["SQ", "OPTIONS"]
+- !private ["SQ", "PATCH"]
+- !private ["SQ", "POST"]
+- !private ["SQ", "PUT"]
+- !private ["SQ", "accept"]
+- !private ["SQ", "accessControlAllowCredentials"]
+- !private ["SQ", "accessControlAllowHeaders"]
+- !private ["SQ", "accessControlAllowMethods"]
+- !private ["SQ", "accessControlAllowOrigin"]
+- !private ["SQ", "accessControlExpose"]
+- !private ["SQ", "accessControlMaxAge"]
+- !private ["SQ", "accessControlRequestMethod"]
+- !private ["SQ", "authorization"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "contentType"]
+- !private ["SQ", "description"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "replaceOrAdd"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "xRequestedWith"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s30ExpressibleByDictionaryLiteralP", "Name"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "replaceOrAdd"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowCredentials"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowHeaders"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowMethods"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowOrigin"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlExpose"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlMaxAge"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlRequestMethod"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "origin"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowCredentials"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowHeaders"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowMethods"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowOrigin"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlExpose"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlMaxAge"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlRequestMethod"]
+- !private ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "origin"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowCredentials"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowHeaders"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowMethods"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowOrigin"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlExpose"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlMaxAge"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlRequestMethod"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "origin"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowCredentials"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowHeaders"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowMethods"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowOrigin"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlExpose"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlMaxAge"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlRequestMethod"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "origin"]
+- ["8NIOHTTP111HTTPHeadersV", "Name"]
+- !private ["8NIOHTTP111HTTPHeadersV", "replaceOrAdd"]
+- !private ["8NIOHTTP111HTTPHeadersV", "subscript"]
+- !private ["8NIOHTTP110HTTPMethodO", "DELETE"]
+- !private ["8NIOHTTP110HTTPMethodO", "GET"]
+- !private ["8NIOHTTP110HTTPMethodO", "OPTIONS"]
+- !private ["8NIOHTTP110HTTPMethodO", "PATCH"]
+- !private ["8NIOHTTP110HTTPMethodO", "POST"]
+- !private ["8NIOHTTP110HTTPMethodO", "PUT"]
+- !private ["SH", "accept"]
+- !private ["SH", "accessControlAllowCredentials"]
+- !private ["SH", "accessControlAllowHeaders"]
+- !private ["SH", "accessControlAllowMethods"]
+- !private ["SH", "accessControlAllowOrigin"]
+- !private ["SH", "accessControlExpose"]
+- !private ["SH", "accessControlMaxAge"]
+- !private ["SH", "accessControlRequestMethod"]
+- !private ["SH", "authorization"]
+- !private ["SH", "contains"]
+- !private ["SH", "contentType"]
+- !private ["SH", "description"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["SH", "origin"]
+- !private ["SH", "xRequestedWith"]
+- !private ["s20LazySequenceProtocolP", "first"]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowCredentials"]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowHeaders"]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowMethods"]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowOrigin"]
+- !private ["s25LosslessStringConvertibleP", "accessControlExpose"]
+- !private ["s25LosslessStringConvertibleP", "accessControlMaxAge"]
+- !private ["s25LosslessStringConvertibleP", "accessControlRequestMethod"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "origin"]
+- !private ["5Vapor10MiddlewareP", "String"]
+- ["5Vapor10MiddlewareP", ""]
+- !private ["5Vapor10MiddlewareP", "configuration"]
+- ["5Vapor10MiddlewareP", "respond"]
+- !private ["s10MirrorPathP", "accessControlAllowCredentials"]
+- !private ["s10MirrorPathP", "accessControlAllowHeaders"]
+- !private ["s10MirrorPathP", "accessControlAllowMethods"]
+- !private ["s10MirrorPathP", "accessControlAllowOrigin"]
+- !private ["s10MirrorPathP", "accessControlExpose"]
+- !private ["s10MirrorPathP", "accessControlMaxAge"]
+- !private ["s10MirrorPathP", "accessControlRequestMethod"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "origin"]
+- !private ["5Vapor24MultipartPartConvertibleP", "accessControlAllowCredentials"]
+- !private ["5Vapor24MultipartPartConvertibleP", "accessControlAllowHeaders"]
+- !private ["5Vapor24MultipartPartConvertibleP", "accessControlAllowMethods"]
+- !private ["5Vapor24MultipartPartConvertibleP", "accessControlAllowOrigin"]
+- !private ["5Vapor24MultipartPartConvertibleP", "accessControlExpose"]
+- !private ["5Vapor24MultipartPartConvertibleP", "accessControlMaxAge"]
+- !private ["5Vapor24MultipartPartConvertibleP", "accessControlRequestMethod"]
+- !private ["5Vapor24MultipartPartConvertibleP", "contains"]
+- !private ["5Vapor24MultipartPartConvertibleP", "init"]
+- !private ["5Vapor24MultipartPartConvertibleP", "origin"]
+- !private ["SM", "first"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So8NSStringC", "contains"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accept"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowCredentials"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowHeaders"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowMethods"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowOrigin"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlExpose"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlMaxAge"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlRequestMethod"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "authorization"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "contentType"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "deinit"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "description"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "origin"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "xRequestedWith"]
+- ["Sk", "Name"]
+- !private ["Sk", "accessControlRequestMethod"]
+- !private ["Sk", "first"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sk", "origin"]
+- !private ["Sk", "replaceOrAdd"]
+- !private ["Sk", "subscript"]
+- !private ["Sn", "accessControlRequestMethod"]
+- !private ["Sn", "origin"]
+- !private ["SX", "accessControlRequestMethod"]
+- !private ["SX", "origin"]
+- !private ["Sm", "accessControlAllowCredentials"]
+- !private ["Sm", "accessControlAllowHeaders"]
+- !private ["Sm", "accessControlAllowMethods"]
+- !private ["Sm", "accessControlAllowOrigin"]
+- !private ["Sm", "accessControlExpose"]
+- !private ["Sm", "accessControlMaxAge"]
+- !private ["Sm", "accessControlRequestMethod"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["Sm", "origin"]
+- !private ["SY", "DELETE"]
+- !private ["SY", "GET"]
+- !private ["SY", "OPTIONS"]
+- !private ["SY", "PATCH"]
+- !private ["SY", "POST"]
+- !private ["SY", "PUT"]
+- ["5Vapor7RequestC", "Bool"]
+- !private ["5Vapor7RequestC", "eventLoop"]
+- !private ["5Vapor7RequestC", "headers"]
+- !private ["5Vapor7RequestC", "isPreflight"]
+- !private ["5Vapor7RequestC", "method"]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowCredentials"]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowHeaders"]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowMethods"]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowOrigin"]
+- !private ["5Vapor16RequestDecodableP", "accessControlExpose"]
+- !private ["5Vapor16RequestDecodableP", "accessControlMaxAge"]
+- !private ["5Vapor16RequestDecodableP", "accessControlRequestMethod"]
+- !private ["5Vapor16RequestDecodableP", "contains"]
+- !private ["5Vapor16RequestDecodableP", "eventLoop"]
+- !private ["5Vapor16RequestDecodableP", "first"]
+- !private ["5Vapor16RequestDecodableP", "headers"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "isPreflight"]
+- !private ["5Vapor16RequestDecodableP", "joined"]
+- !private ["5Vapor16RequestDecodableP", "map"]
+- !private ["5Vapor16RequestDecodableP", "method"]
+- !private ["5Vapor16RequestDecodableP", "origin"]
+- !private ["5Vapor9ResponderP", "respond"]
+- !private ["5Vapor8ResponseC", "headers"]
+- !private ["5Vapor8ResponseC", "init"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowCredentials"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowHeaders"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowMethods"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowOrigin"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlExpose"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlMaxAge"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlRequestMethod"]
+- !private ["5Vapor17ResponseEncodableP", "contains"]
+- !private ["5Vapor17ResponseEncodableP", "first"]
+- !private ["5Vapor17ResponseEncodableP", "headers"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "joined"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "origin"]
+- ["ST", "Name"]
+- !private ["ST", "accessControlAllowCredentials"]
+- !private ["ST", "accessControlAllowHeaders"]
+- !private ["ST", "accessControlAllowMethods"]
+- !private ["ST", "accessControlAllowOrigin"]
+- !private ["ST", "accessControlExpose"]
+- !private ["ST", "accessControlMaxAge"]
+- !private ["ST", "accessControlRequestMethod"]
+- !private ["ST", "contains"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["ST", "origin"]
+- !private ["ST", "replaceOrAdd"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "first"]
+- !private ["SS", "accessControlAllowCredentials"]
+- !private ["SS", "accessControlAllowHeaders"]
+- !private ["SS", "accessControlAllowMethods"]
+- !private ["SS", "accessControlAllowOrigin"]
+- !private ["SS", "accessControlExpose"]
+- !private ["SS", "accessControlMaxAge"]
+- !private ["SS", "accessControlRequestMethod"]
+- !private ["SS", "contains"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "origin"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "accessControlAllowCredentials"]
+- !private ["Sy", "accessControlAllowHeaders"]
+- !private ["Sy", "accessControlAllowMethods"]
+- !private ["Sy", "accessControlAllowOrigin"]
+- !private ["Sy", "accessControlExpose"]
+- !private ["Sy", "accessControlMaxAge"]
+- !private ["Sy", "accessControlRequestMethod"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "origin"]
+- !private ["s16TextOutputStreamP", "accessControlAllowCredentials"]
+- !private ["s16TextOutputStreamP", "accessControlAllowHeaders"]
+- !private ["s16TextOutputStreamP", "accessControlAllowMethods"]
+- !private ["s16TextOutputStreamP", "accessControlAllowOrigin"]
+- !private ["s16TextOutputStreamP", "accessControlExpose"]
+- !private ["s16TextOutputStreamP", "accessControlMaxAge"]
+- !private ["s16TextOutputStreamP", "accessControlRequestMethod"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "origin"]
+- !private ["s20TextOutputStreamableP", "accessControlAllowCredentials"]
+- !private ["s20TextOutputStreamableP", "accessControlAllowHeaders"]
+- !private ["s20TextOutputStreamableP", "accessControlAllowMethods"]
+- !private ["s20TextOutputStreamableP", "accessControlAllowOrigin"]
+- !private ["s20TextOutputStreamableP", "accessControlExpose"]
+- !private ["s20TextOutputStreamableP", "accessControlMaxAge"]
+- !private ["s20TextOutputStreamableP", "accessControlRequestMethod"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "origin"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowCredentials"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowHeaders"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowMethods"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowOrigin"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlExpose"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlMaxAge"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlRequestMethod"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "contains"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "init"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "origin"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowCredentials"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowHeaders"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowMethods"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowOrigin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlExpose"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlMaxAge"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlRequestMethod"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowCredentials"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowHeaders"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowMethods"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowOrigin"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlExpose"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlMaxAge"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlRequestMethod"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "origin"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowCredentials"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowHeaders"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowMethods"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowOrigin"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlExpose"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlMaxAge"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlRequestMethod"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "origin"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowCredentials"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowHeaders"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowMethods"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowOrigin"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlExpose"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlMaxAge"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlRequestMethod"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "origin"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowCredentials"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowHeaders"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowMethods"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowOrigin"]
+- !private ["s19_HasContiguousBytesP", "accessControlExpose"]
+- !private ["s19_HasContiguousBytesP", "accessControlMaxAge"]
+- !private ["s19_HasContiguousBytesP", "accessControlRequestMethod"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "origin"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowCredentials"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowHeaders"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowMethods"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowOrigin"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlExpose"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlMaxAge"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlRequestMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+depends-nominal:
+- "5Vapor14CORSMiddlewareC18AllowOriginSettingO"
+- !private "Sa"
+- "SK"
+- "5Vapor14CORSMiddlewareC"
+- !private "s7CVarArgP"
+- !private "5Vapor22CodingKeyRepresentableP"
+- "Sl"
+- !private "SL"
+- "5Vapor14CORSMiddlewareC13ConfigurationV"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "8NIOHTTP111HTTPHeadersV"
+- !private "8NIOHTTP110HTTPMethodO"
+- !private "SH"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "5Vapor10MiddlewareP"
+- !private "s10MirrorPathP"
+- !private "5Vapor24MultipartPartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "8NIOHTTP111HTTPHeadersV5VaporE4NameV"
+- "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "SY"
+- "5Vapor7RequestC"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor9ResponderP"
+- !private "5Vapor8ResponseC"
+- !private "5Vapor17ResponseEncodableP"
+- "ST"
+- !private "s5SliceV"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ea0e015d106086c4df0b4079c17e4ea1"

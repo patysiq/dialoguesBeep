@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/master.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/Exports.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/Exports.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/Exports.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/Exports.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteConnection+SQLKit.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnection+SQLKit.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnection+SQLKit.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnection+SQLKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnection+SQLKit.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteConnectionSource.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnectionSource.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnectionSource.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnectionSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteConnectionSource.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteDataDecoder.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataDecoder.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataDecoder.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataDecoder.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteDataEncoder.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataEncoder.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataEncoder.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDataEncoder.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteDialect.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDialect.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDialect.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDialect~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteDialect.swiftdeps"
+  },
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteRow+SQLRow.swift": {
+    "dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteRow+SQLRow.d",
+    "object": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteRow+SQLRow.swift.o",
+    "swiftmodule": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteRow+SQLRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteRow+SQLRow.swiftdeps"
+  }
+}

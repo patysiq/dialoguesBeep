@@ -1,0 +1,733 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NIOHTTP2Error"
+- "NIOHTTP2Errors"
+- "InternalError"
+provides-nominal:
+- "8NIOHTTP20A5ErrorP"
+- "8NIOHTTP20A6ErrorsO"
+- "8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV"
+- "8NIOHTTP20A6ErrorsO16InvalidALPNTokenV"
+- "8NIOHTTP20A6ErrorsO12NoSuchStreamV"
+- "8NIOHTTP20A6ErrorsO12StreamClosedV"
+- "8NIOHTTP20A6ErrorsO14BadClientMagicV"
+- "8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV"
+- "8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV"
+- "8NIOHTTP20A6ErrorsO20FlowControlViolationV"
+- "8NIOHTTP20A6ErrorsO14InvalidSettingV"
+- "8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV"
+- "8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV"
+- "8NIOHTTP20A6ErrorsO19MaxStreamsViolationV"
+- "8NIOHTTP20A6ErrorsO16StreamIDTooSmallV"
+- "8NIOHTTP20A6ErrorsO14MissingPrefaceV"
+- "8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV"
+- "8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV"
+- "8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV"
+- "8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV"
+- "8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV"
+- "8NIOHTTP20A6ErrorsO11UnsupportedV"
+- "8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV"
+- "8NIOHTTP20A6ErrorsO18UnableToParseFrameV"
+- "8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV"
+- "8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV"
+- "8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V"
+- "8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV"
+- "8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV"
+- "8NIOHTTP20A6ErrorsO17MissingHostHeaderV"
+- "8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV"
+- "8NIOHTTP20A6ErrorsO15EmptyPathHeaderV"
+- "8NIOHTTP20A6ErrorsO18InvalidStatusValueV"
+- "8NIOHTTP20A6ErrorsO13PriorityCycleV"
+- "8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV"
+- "8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV"
+- "8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV"
+- "8NIOHTTP20A6ErrorsO21ContentLengthViolatedV"
+- "8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV"
+- "8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV"
+- "8NIOHTTP213InternalErrorO"
+provides-member:
+- ["8NIOHTTP20A5ErrorP", ""]
+- ["8NIOHTTP20A6ErrorsO", ""]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", ""]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", ""]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", ""]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", ""]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", ""]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", ""]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", ""]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", ""]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", ""]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", ""]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", ""]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", ""]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", ""]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", ""]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", ""]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", ""]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", ""]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", ""]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", ""]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", ""]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", ""]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", ""]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", ""]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", ""]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", ""]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", ""]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", ""]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", ""]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", ""]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", ""]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", ""]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", ""]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", ""]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", ""]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", ""]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", ""]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", ""]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", ""]
+- ["8NIOHTTP213InternalErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CustomStringConvertible"
+- "Equatable"
+- "Error"
+- !private "FloatLiteralType"
+- "HPACKHeaders"
+- "HTTP2ErrorCode"
+- "HTTP2Setting"
+- "HTTP2StreamID"
+- "Hashable"
+- "Int"
+- !private "IntegerLiteralType"
+- "InternalError"
+- "NIOHTTP2Error"
+- "NIOHTTP2Errors"
+- "NIOHTTP2StreamState"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+depends-member:
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "=="]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "_code"]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO14BadClientMagicV", "init"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "=="]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "NIOHTTP2StreamState"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "String"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "_code"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "description"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "fromState"]
+- ["8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV", "init"]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "=="]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "_code"]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO21ContentLengthViolatedV", "init"]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "=="]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "_code"]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fromState"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "=="]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "_code"]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV", "init"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "=="]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "String"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "_code"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "init"]
+- ["8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV", "name"]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "=="]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "_code"]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO15EmptyPathHeaderV", "init"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "currentWindowSize"]
+- !private ["SQ", "delta"]
+- ["SQ", "description"]
+- !private ["SQ", "errorCode"]
+- !private ["SQ", "fieldName"]
+- !private ["SQ", "fromState"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "headerBlock"]
+- !private ["SQ", "info"]
+- !private ["SQ", "name"]
+- !private ["SQ", "setting"]
+- !private ["SQ", "streamID"]
+- !private ["SQ", "value"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "currentWindowSize"]
+- !private ["s5ErrorP", "delta"]
+- ["s5ErrorP", "description"]
+- !private ["s5ErrorP", "errorCode"]
+- !private ["s5ErrorP", "fieldName"]
+- !private ["s5ErrorP", "fromState"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "headerBlock"]
+- !private ["s5ErrorP", "info"]
+- !private ["s5ErrorP", "name"]
+- !private ["s5ErrorP", "setting"]
+- !private ["s5ErrorP", "streamID"]
+- !private ["s5ErrorP", "value"]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "=="]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "_code"]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", "init"]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "=="]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "_code"]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", "init"]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "=="]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "_code"]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV", "init"]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "=="]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "_code"]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO20FlowControlViolationV", "init"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "=="]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "String"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "_code"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "init"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "name"]
+- ["8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV", "value"]
+- ["8NIOHTTP214HTTP2ErrorCodeV", "deinit"]
+- ["8NIOHTTP212HTTP2SettingV", "deinit"]
+- ["8NIOHTTP213HTTP2StreamIDV", "deinit"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "=="]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "_code"]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV", "init"]
+- ["8NIOHTTP213InternalErrorO", "=="]
+- ["8NIOHTTP213InternalErrorO", "HTTP2ErrorCode"]
+- ["8NIOHTTP213InternalErrorO", "__derived_enum_equals"]
+- ["8NIOHTTP213InternalErrorO", "_code"]
+- ["8NIOHTTP213InternalErrorO", "_domain"]
+- ["8NIOHTTP213InternalErrorO", "_getEmbeddedNSError"]
+- ["8NIOHTTP213InternalErrorO", "_rawHashValue"]
+- ["8NIOHTTP213InternalErrorO", "_userInfo"]
+- ["8NIOHTTP213InternalErrorO", "attemptedToCreateStream"]
+- ["8NIOHTTP213InternalErrorO", "codecError"]
+- ["8NIOHTTP213InternalErrorO", "deinit"]
+- ["8NIOHTTP213InternalErrorO", "hash"]
+- ["8NIOHTTP213InternalErrorO", "hashValue"]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "=="]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "_code"]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO16InvalidALPNTokenV", "init"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "=="]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "Int"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "_code"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "currentWindowSize"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "delta"]
+- ["8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV", "init"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "=="]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "String"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "_code"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "fieldName"]
+- ["8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV", "init"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "=="]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "HPACKHeaders"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "_code"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "headerBlock"]
+- ["8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV", "init"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "=="]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "HTTP2Setting"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "_code"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "init"]
+- ["8NIOHTTP20A6ErrorsO14InvalidSettingV", "setting"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "=="]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "String"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "_code"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "init"]
+- ["8NIOHTTP20A6ErrorsO18InvalidStatusValueV", "value"]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "=="]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "_code"]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV", "init"]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "=="]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "_code"]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV", "init"]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "=="]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "_code"]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO19MaxStreamsViolationV", "init"]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "=="]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "_code"]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO17MissingHostHeaderV", "init"]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "=="]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "_code"]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO14MissingPrefaceV", "init"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "=="]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "String"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "_code"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "init"]
+- ["8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV", "name"]
+- ["8NIOHTTP20A5ErrorP", "=="]
+- ["8NIOHTTP20A5ErrorP", ""]
+- ["8NIOHTTP20A5ErrorP", "_code"]
+- ["8NIOHTTP20A5ErrorP", "_domain"]
+- ["8NIOHTTP20A5ErrorP", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A5ErrorP", "_userInfo"]
+- !private ["8NIOHTTP20A5ErrorP", "currentWindowSize"]
+- !private ["8NIOHTTP20A5ErrorP", "delta"]
+- ["8NIOHTTP20A5ErrorP", "description"]
+- !private ["8NIOHTTP20A5ErrorP", "errorCode"]
+- !private ["8NIOHTTP20A5ErrorP", "fieldName"]
+- !private ["8NIOHTTP20A5ErrorP", "fromState"]
+- !private ["8NIOHTTP20A5ErrorP", "headerBlock"]
+- !private ["8NIOHTTP20A5ErrorP", "info"]
+- !private ["8NIOHTTP20A5ErrorP", "name"]
+- !private ["8NIOHTTP20A5ErrorP", "setting"]
+- !private ["8NIOHTTP20A5ErrorP", "streamID"]
+- !private ["8NIOHTTP20A5ErrorP", "value"]
+- ["8NIOHTTP20A6ErrorsO", "BadClientMagic"]
+- ["8NIOHTTP20A6ErrorsO", "BadStreamStateTransition"]
+- ["8NIOHTTP20A6ErrorsO", "ContentLengthViolated"]
+- ["8NIOHTTP20A6ErrorsO", "CreatedStreamAfterGoaway"]
+- ["8NIOHTTP20A6ErrorsO", "CustomStringConvertible"]
+- ["8NIOHTTP20A6ErrorsO", "DuplicateHostHeader"]
+- ["8NIOHTTP20A6ErrorsO", "DuplicatePseudoHeader"]
+- ["8NIOHTTP20A6ErrorsO", "EmptyPathHeader"]
+- ["8NIOHTTP20A6ErrorsO", "ExcessiveEmptyDataFrames"]
+- ["8NIOHTTP20A6ErrorsO", "ExcessiveOutboundFrameBuffering"]
+- ["8NIOHTTP20A6ErrorsO", "ExcessivelyLargeHeaderBlock"]
+- ["8NIOHTTP20A6ErrorsO", "FlowControlViolation"]
+- ["8NIOHTTP20A6ErrorsO", "ForbiddenHeaderField"]
+- ["8NIOHTTP20A6ErrorsO", "HPACKHeaders"]
+- ["8NIOHTTP20A6ErrorsO", "HTTP2ErrorCode"]
+- ["8NIOHTTP20A6ErrorsO", "HTTP2Setting"]
+- ["8NIOHTTP20A6ErrorsO", "HTTP2StreamID"]
+- ["8NIOHTTP20A6ErrorsO", "IOOnClosedConnection"]
+- ["8NIOHTTP20A6ErrorsO", "Int"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidALPNToken"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidFlowControlWindowSize"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidHTTP2HeaderFieldName"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidPseudoHeaders"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidSetting"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidStatusValue"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidStreamIDForPeer"]
+- ["8NIOHTTP20A6ErrorsO", "InvalidWindowIncrementSize"]
+- ["8NIOHTTP20A6ErrorsO", "MaxStreamsViolation"]
+- ["8NIOHTTP20A6ErrorsO", "MissingHostHeader"]
+- ["8NIOHTTP20A6ErrorsO", "MissingPreface"]
+- ["8NIOHTTP20A6ErrorsO", "MissingPseudoHeader"]
+- ["8NIOHTTP20A6ErrorsO", "NIOHTTP2Error"]
+- ["8NIOHTTP20A6ErrorsO", "NIOHTTP2StreamState"]
+- ["8NIOHTTP20A6ErrorsO", "NoSuchStream"]
+- ["8NIOHTTP20A6ErrorsO", "PriorityCycle"]
+- ["8NIOHTTP20A6ErrorsO", "PseudoHeaderAfterRegularHeader"]
+- ["8NIOHTTP20A6ErrorsO", "PushInViolationOfSetting"]
+- ["8NIOHTTP20A6ErrorsO", "RaisedGoawayLastStreamID"]
+- ["8NIOHTTP20A6ErrorsO", "ReceivedBadSettings"]
+- ["8NIOHTTP20A6ErrorsO", "StreamClosed"]
+- ["8NIOHTTP20A6ErrorsO", "StreamIDTooSmall"]
+- ["8NIOHTTP20A6ErrorsO", "String"]
+- ["8NIOHTTP20A6ErrorsO", "TrailersWithoutEndStream"]
+- ["8NIOHTTP20A6ErrorsO", "UnableToParseFrame"]
+- ["8NIOHTTP20A6ErrorsO", "UnableToSerializeFrame"]
+- ["8NIOHTTP20A6ErrorsO", "UnknownPseudoHeader"]
+- ["8NIOHTTP20A6ErrorsO", "Unsupported"]
+- ["8NIOHTTP20A11StreamStateV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "=="]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "HTTP2StreamID"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "_code"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "init"]
+- ["8NIOHTTP20A6ErrorsO12NoSuchStreamV", "streamID"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "=="]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "HTTP2StreamID"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "_code"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "init"]
+- ["8NIOHTTP20A6ErrorsO13PriorityCycleV", "streamID"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "=="]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "String"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "_code"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "_domain"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "deinit"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "init"]
+- ["8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V", "name"]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "=="]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "_code"]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", "init"]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "=="]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "_code"]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV", "init"]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "=="]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "_code"]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV", "init"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "=="]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "HTTP2ErrorCode"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "HTTP2StreamID"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "_code"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "errorCode"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "init"]
+- ["8NIOHTTP20A6ErrorsO12StreamClosedV", "streamID"]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "=="]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "_code"]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO16StreamIDTooSmallV", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "=="]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "HTTP2StreamID"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "_code"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "init"]
+- ["8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV", "streamID"]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "=="]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "_code"]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO18UnableToParseFrameV", "init"]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "=="]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "_code"]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV", "init"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "=="]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "String"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "_code"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "init"]
+- ["8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV", "name"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "=="]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "String"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "__derived_struct_equals"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "_code"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "_domain"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "_getEmbeddedNSError"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "_userInfo"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "deinit"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "info"]
+- ["8NIOHTTP20A6ErrorsO11UnsupportedV", "init"]
+depends-nominal:
+- "8NIOHTTP20A6ErrorsO14BadClientMagicV"
+- "8NIOHTTP20A6ErrorsO24BadStreamStateTransitionV"
+- "8NIOHTTP20A6ErrorsO21ContentLengthViolatedV"
+- "8NIOHTTP20A6ErrorsO24CreatedStreamAfterGoawayV"
+- "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "8NIOHTTP20A6ErrorsO19DuplicateHostHeaderV"
+- "8NIOHTTP20A6ErrorsO21DuplicatePseudoHeaderV"
+- "8NIOHTTP20A6ErrorsO15EmptyPathHeaderV"
+- "SQ"
+- "s5ErrorP"
+- "8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV"
+- "8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV"
+- "8NIOHTTP20A6ErrorsO27ExcessivelyLargeHeaderBlockV"
+- "8NIOHTTP20A6ErrorsO20FlowControlViolationV"
+- "8NIOHTTP20A6ErrorsO20ForbiddenHeaderFieldV"
+- "8NIOHTTP214HTTP2ErrorCodeV"
+- "8NIOHTTP212HTTP2SettingV"
+- "8NIOHTTP213HTTP2StreamIDV"
+- "SH"
+- !private "s6HasherV"
+- "8NIOHTTP20A6ErrorsO20IOOnClosedConnectionV"
+- "8NIOHTTP213InternalErrorO"
+- "8NIOHTTP20A6ErrorsO16InvalidALPNTokenV"
+- "8NIOHTTP20A6ErrorsO28InvalidFlowControlWindowSizeV"
+- "8NIOHTTP20A6ErrorsO27InvalidHTTP2HeaderFieldNameV"
+- "8NIOHTTP20A6ErrorsO20InvalidPseudoHeadersV"
+- "8NIOHTTP20A6ErrorsO14InvalidSettingV"
+- "8NIOHTTP20A6ErrorsO18InvalidStatusValueV"
+- "8NIOHTTP20A6ErrorsO22InvalidStreamIDForPeerV"
+- "8NIOHTTP20A6ErrorsO26InvalidWindowIncrementSizeV"
+- "8NIOHTTP20A6ErrorsO19MaxStreamsViolationV"
+- "8NIOHTTP20A6ErrorsO17MissingHostHeaderV"
+- "8NIOHTTP20A6ErrorsO14MissingPrefaceV"
+- "8NIOHTTP20A6ErrorsO19MissingPseudoHeaderV"
+- "8NIOHTTP20A5ErrorP"
+- "8NIOHTTP20A6ErrorsO"
+- "8NIOHTTP20A11StreamStateV"
+- "8NIOHTTP20A6ErrorsO12NoSuchStreamV"
+- "8NIOHTTP20A6ErrorsO13PriorityCycleV"
+- "8NIOHTTP20A6ErrorsO024PseudoHeaderAfterRegularD0V"
+- "8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV"
+- "8NIOHTTP20A6ErrorsO24RaisedGoawayLastStreamIDV"
+- "8NIOHTTP20A6ErrorsO19ReceivedBadSettingsV"
+- "8NIOHTTP20A6ErrorsO12StreamClosedV"
+- "8NIOHTTP20A6ErrorsO16StreamIDTooSmallV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "8NIOHTTP20A6ErrorsO24TrailersWithoutEndStreamV"
+- "8NIOHTTP20A6ErrorsO18UnableToParseFrameV"
+- "8NIOHTTP20A6ErrorsO22UnableToSerializeFrameV"
+- "8NIOHTTP20A6ErrorsO19UnknownPseudoHeaderV"
+- "8NIOHTTP20A6ErrorsO11UnsupportedV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "9d8e56cc130663e9d8bd24c5d94b8e02"

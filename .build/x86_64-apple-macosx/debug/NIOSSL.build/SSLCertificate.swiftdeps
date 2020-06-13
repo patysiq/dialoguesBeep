@@ -1,0 +1,878 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NIOSSLCertificate"
+- "SubjectAltNameSequence"
+- "=="
+provides-nominal:
+- "6NIOSSL17NIOSSLCertificateC"
+- "6NIOSSL17NIOSSLCertificateC15AlternativeNameO"
+- "6NIOSSL17NIOSSLCertificateC9IPAddressO"
+- "6NIOSSL22SubjectAltNameSequenceC"
+provides-member:
+- ["6NIOSSL17NIOSSLCertificateC", ""]
+- ["6NIOSSL17NIOSSLCertificateC15AlternativeNameO", ""]
+- ["6NIOSSL17NIOSSLCertificateC9IPAddressO", ""]
+- ["6NIOSSL22SubjectAltNameSequenceC", ""]
+- ["6NIOSSL17NIOSSLCertificateC", "extractPublicKey"]
+- ["6NIOSSL17NIOSSLCertificateC", "toDERBytes"]
+- ["6NIOSSL17NIOSSLCertificateC", "fromPEMBuffer"]
+- ["6NIOSSL17NIOSSLCertificateC", "fromPEMBytes"]
+- ["6NIOSSL17NIOSSLCertificateC", "fromPEMFile"]
+provides-dynamic-lookup:
+- "=="
+- "_ref"
+- "addressFromBytes"
+- "commonName"
+- "extractPublicKey"
+- "fromPEMBuffer"
+- "fromPEMBytes"
+- "fromPEMFile"
+- "fromUnsafePointer"
+- "hash"
+- "hashValue"
+- "nameStack"
+- "next"
+- "nextIdx"
+- "readCertificatesFromBIO"
+- "ref"
+- "stackSize"
+- "subjectAlternativeNames"
+- "toDERBytes"
+- "withUnsafeDERCertificateBuffer"
+depends-top-level:
+- !private "&&"
+- !private "+="
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BIO"
+- "Bool"
+- !private "BoringSSLError"
+- !private "CChar"
+- !private "CInt"
+- !private "CNIOBoringSSLShims_ERR_GET_LIB"
+- !private "CNIOBoringSSLShims_ERR_GET_REASON"
+- !private "CNIOBoringSSLShims_sk_GENERAL_NAME_num"
+- !private "CNIOBoringSSLShims_sk_GENERAL_NAME_value"
+- !private "CNIOBoringSSL_ASN1_STRING_get0_data"
+- !private "CNIOBoringSSL_ASN1_STRING_length"
+- !private "CNIOBoringSSL_ASN1_STRING_to_UTF8"
+- !private "CNIOBoringSSL_BIO_free"
+- !private "CNIOBoringSSL_BIO_get_mem_data"
+- !private "CNIOBoringSSL_BIO_new"
+- !private "CNIOBoringSSL_BIO_new_mem_buf"
+- !private "CNIOBoringSSL_BIO_read_filename"
+- !private "CNIOBoringSSL_BIO_s_file"
+- !private "CNIOBoringSSL_BIO_s_mem"
+- !private "CNIOBoringSSL_ERR_clear_error"
+- !private "CNIOBoringSSL_ERR_peek_error"
+- !private "CNIOBoringSSL_GENERAL_NAMES_free"
+- !private "CNIOBoringSSL_OPENSSL_free"
+- !private "CNIOBoringSSL_PEM_read_X509"
+- !private "CNIOBoringSSL_PEM_read_bio_X509"
+- !private "CNIOBoringSSL_PEM_read_bio_X509_AUX"
+- !private "CNIOBoringSSL_X509_NAME_ENTRY_get_data"
+- !private "CNIOBoringSSL_X509_NAME_get_entry"
+- !private "CNIOBoringSSL_X509_NAME_get_index_by_NID"
+- !private "CNIOBoringSSL_X509_cmp"
+- !private "CNIOBoringSSL_X509_free"
+- !private "CNIOBoringSSL_X509_get_ext_d2i"
+- !private "CNIOBoringSSL_X509_get_pubkey"
+- !private "CNIOBoringSSL_X509_get_subject_name"
+- !private "CNIOBoringSSL_d2i_X509_bio"
+- !private "CNIOBoringSSL_d2i_X509_fp"
+- !private "CNIOBoringSSL_i2d_X509_bio"
+- !private "ERR_LIB_PEM"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "GEN_DNS"
+- !private "GEN_IPADD"
+- "Hashable"
+- "Hasher"
+- "Int"
+- "Int8"
+- !private "IntegerLiteralType"
+- "IteratorProtocol"
+- !private "NID_commonName"
+- !private "NID_subject_alt_name"
+- "NIOSSLCertificate"
+- !private "NIOSSLError"
+- "NIOSSLPublicKey"
+- "NIOSSLSerializationFormats"
+- "OpaquePointer"
+- !private "PEM_R_NO_START_LINE"
+- !private "Posix"
+- "Sequence"
+- "String"
+- !private "StringLiteralType"
+- "SubjectAltNameSequence"
+- "UInt8"
+- "UnsafeBufferPointer"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafeRawBufferPointer"
+- "X509"
+- !private "fatalError"
+- !private "fclose"
+- "in6_addr"
+- "in_addr"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["6NIOSSL17NIOSSLCertificateC15AlternativeNameO", "IPAddress"]
+- ["6NIOSSL17NIOSSLCertificateC15AlternativeNameO", "UInt8"]
+- ["6NIOSSL17NIOSSLCertificateC15AlternativeNameO", "dnsName"]
+- ["6NIOSSL17NIOSSLCertificateC15AlternativeNameO", "ipAddress"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "withUnsafeBytes"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["Sz", "init"]
+- !private ["6NIOSSL14BoringSSLErrorO", "buildErrorStack"]
+- !private ["6NIOSSL14BoringSSLErrorO", "deinit"]
+- !private ["6NIOSSL14BoringSSLErrorO", "unknownError"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["s7CVarArgP", "withUnsafeBytes"]
+- !private ["Sl", "append"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "baseAddress"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dnsName"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ipAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "ipv4"]
+- !private ["s28CustomDebugStringConvertibleP", "ipv6"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "dnsName"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "ipAddress"]
+- !private ["s17CustomReflectableP", "ipv4"]
+- !private ["s17CustomReflectableP", "ipv6"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "baseAddress"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeBytes"]
+- !private ["Se", "append"]
+- !private ["Se", "dnsName"]
+- !private ["Se", "init"]
+- !private ["Se", "ipAddress"]
+- !private ["Se", "ipv4"]
+- !private ["Se", "ipv6"]
+- !private ["Se", "map"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["SE", "append"]
+- !private ["SE", "dnsName"]
+- !private ["SE", "init"]
+- !private ["SE", "ipAddress"]
+- !private ["SE", "ipv4"]
+- !private ["SE", "ipv6"]
+- !private ["SE", "map"]
+- !private ["SE", "withUnsafeBytes"]
+- ["SQ", "=="]
+- ["SQ", "AlternativeName"]
+- !private ["SQ", "Array"]
+- !private ["SQ", "BoringSSLError"]
+- !private ["SQ", "CInt"]
+- !private ["SQ", "CNIOBoringSSLShims_ERR_GET_LIB"]
+- !private ["SQ", "CNIOBoringSSLShims_ERR_GET_REASON"]
+- !private ["SQ", "CNIOBoringSSL_ASN1_STRING_to_UTF8"]
+- !private ["SQ", "CNIOBoringSSL_BIO_free"]
+- !private ["SQ", "CNIOBoringSSL_BIO_get_mem_data"]
+- !private ["SQ", "CNIOBoringSSL_BIO_new"]
+- !private ["SQ", "CNIOBoringSSL_BIO_new_mem_buf"]
+- !private ["SQ", "CNIOBoringSSL_BIO_read_filename"]
+- !private ["SQ", "CNIOBoringSSL_BIO_s_file"]
+- !private ["SQ", "CNIOBoringSSL_BIO_s_mem"]
+- !private ["SQ", "CNIOBoringSSL_ERR_clear_error"]
+- !private ["SQ", "CNIOBoringSSL_ERR_peek_error"]
+- !private ["SQ", "CNIOBoringSSL_OPENSSL_free"]
+- !private ["SQ", "CNIOBoringSSL_PEM_read_X509"]
+- !private ["SQ", "CNIOBoringSSL_PEM_read_bio_X509"]
+- !private ["SQ", "CNIOBoringSSL_PEM_read_bio_X509_AUX"]
+- !private ["SQ", "CNIOBoringSSL_X509_NAME_ENTRY_get_data"]
+- !private ["SQ", "CNIOBoringSSL_X509_NAME_get_entry"]
+- !private ["SQ", "CNIOBoringSSL_X509_NAME_get_index_by_NID"]
+- !private ["SQ", "CNIOBoringSSL_X509_cmp"]
+- !private ["SQ", "CNIOBoringSSL_X509_free"]
+- !private ["SQ", "CNIOBoringSSL_X509_get_ext_d2i"]
+- !private ["SQ", "CNIOBoringSSL_X509_get_pubkey"]
+- !private ["SQ", "CNIOBoringSSL_X509_get_subject_name"]
+- !private ["SQ", "CNIOBoringSSL_d2i_X509_bio"]
+- !private ["SQ", "CNIOBoringSSL_d2i_X509_fp"]
+- !private ["SQ", "CNIOBoringSSL_i2d_X509_bio"]
+- !private ["SQ", "ERR_LIB_PEM"]
+- ["SQ", "IPAddress"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NID_commonName"]
+- !private ["SQ", "NID_subject_alt_name"]
+- !private ["SQ", "NIOSSLCertificate"]
+- !private ["SQ", "NIOSSLError"]
+- !private ["SQ", "NIOSSLPublicKey"]
+- !private ["SQ", "OpaquePointer"]
+- !private ["SQ", "PEM_R_NO_START_LINE"]
+- !private ["SQ", "Posix"]
+- !private ["SQ", "SubjectAltNameSequence"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "UnsafeBufferPointer"]
+- !private ["SQ", "UnsafeMutableRawPointer"]
+- !private ["SQ", "UnsafeRawBufferPointer"]
+- !private ["SQ", "X509"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "_ref"]
+- !private ["SQ", "append"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "buildErrorStack"]
+- ["SQ", "der"]
+- !private ["SQ", "dnsName"]
+- !private ["SQ", "failedToLoadCertificate"]
+- !private ["SQ", "fclose"]
+- !private ["SQ", "fromPEMBytes"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "ipAddress"]
+- !private ["SQ", "ipv4"]
+- !private ["SQ", "ipv6"]
+- !private ["SQ", "map"]
+- ["SQ", "pem"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "readCertificatesFromBIO"]
+- !private ["SQ", "ref"]
+- !private ["SQ", "unableToAllocateBoringSSLObject"]
+- !private ["SQ", "unknownError"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["SQ", "withUnsafeDERCertificateBuffer"]
+- !private ["s5ErrorP", "buildErrorStack"]
+- !private ["s5ErrorP", "failedToLoadCertificate"]
+- !private ["s5ErrorP", "unableToAllocateBoringSSLObject"]
+- !private ["s5ErrorP", "unknownError"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBytes"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "dnsName"]
+- !private ["s23ExpressibleByNilLiteralP", "ipAddress"]
+- !private ["s23ExpressibleByNilLiteralP", "ipv4"]
+- !private ["s23ExpressibleByNilLiteralP", "ipv6"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So15GENERAL_NAME_stV", "d"]
+- !private ["So15GENERAL_NAME_stV", "type"]
+- ["SH", "=="]
+- ["SH", "AlternativeName"]
+- !private ["SH", "Array"]
+- !private ["SH", "BoringSSLError"]
+- !private ["SH", "CInt"]
+- !private ["SH", "CNIOBoringSSLShims_ERR_GET_LIB"]
+- !private ["SH", "CNIOBoringSSLShims_ERR_GET_REASON"]
+- !private ["SH", "CNIOBoringSSL_ASN1_STRING_to_UTF8"]
+- !private ["SH", "CNIOBoringSSL_BIO_free"]
+- !private ["SH", "CNIOBoringSSL_BIO_get_mem_data"]
+- !private ["SH", "CNIOBoringSSL_BIO_new"]
+- !private ["SH", "CNIOBoringSSL_BIO_new_mem_buf"]
+- !private ["SH", "CNIOBoringSSL_BIO_read_filename"]
+- !private ["SH", "CNIOBoringSSL_BIO_s_file"]
+- !private ["SH", "CNIOBoringSSL_BIO_s_mem"]
+- !private ["SH", "CNIOBoringSSL_ERR_clear_error"]
+- !private ["SH", "CNIOBoringSSL_ERR_peek_error"]
+- !private ["SH", "CNIOBoringSSL_OPENSSL_free"]
+- !private ["SH", "CNIOBoringSSL_PEM_read_X509"]
+- !private ["SH", "CNIOBoringSSL_PEM_read_bio_X509"]
+- !private ["SH", "CNIOBoringSSL_PEM_read_bio_X509_AUX"]
+- !private ["SH", "CNIOBoringSSL_X509_NAME_ENTRY_get_data"]
+- !private ["SH", "CNIOBoringSSL_X509_NAME_get_entry"]
+- !private ["SH", "CNIOBoringSSL_X509_NAME_get_index_by_NID"]
+- !private ["SH", "CNIOBoringSSL_X509_cmp"]
+- !private ["SH", "CNIOBoringSSL_X509_free"]
+- !private ["SH", "CNIOBoringSSL_X509_get_ext_d2i"]
+- !private ["SH", "CNIOBoringSSL_X509_get_pubkey"]
+- !private ["SH", "CNIOBoringSSL_X509_get_subject_name"]
+- !private ["SH", "CNIOBoringSSL_d2i_X509_bio"]
+- !private ["SH", "CNIOBoringSSL_d2i_X509_fp"]
+- !private ["SH", "CNIOBoringSSL_i2d_X509_bio"]
+- !private ["SH", "ERR_LIB_PEM"]
+- ["SH", "IPAddress"]
+- !private ["SH", "Int"]
+- !private ["SH", "NID_commonName"]
+- !private ["SH", "NID_subject_alt_name"]
+- !private ["SH", "NIOSSLCertificate"]
+- !private ["SH", "NIOSSLError"]
+- !private ["SH", "NIOSSLPublicKey"]
+- !private ["SH", "OpaquePointer"]
+- !private ["SH", "PEM_R_NO_START_LINE"]
+- !private ["SH", "Posix"]
+- !private ["SH", "SubjectAltNameSequence"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "UnsafeBufferPointer"]
+- !private ["SH", "UnsafeMutableRawPointer"]
+- !private ["SH", "UnsafeRawBufferPointer"]
+- !private ["SH", "X509"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "_ref"]
+- !private ["SH", "append"]
+- !private ["SH", "assumingMemoryBound"]
+- ["SH", "der"]
+- !private ["SH", "dnsName"]
+- !private ["SH", "fclose"]
+- !private ["SH", "fromPEMBytes"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "ipAddress"]
+- !private ["SH", "ipv4"]
+- !private ["SH", "ipv6"]
+- !private ["SH", "map"]
+- ["SH", "pem"]
+- !private ["SH", "pointee"]
+- !private ["SH", "readCertificatesFromBIO"]
+- !private ["SH", "ref"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["SH", "withUnsafeDERCertificateBuffer"]
+- !private ["s6HasherV", "combine"]
+- ["6NIOSSL17NIOSSLCertificateC9IPAddressO", "in6_addr"]
+- ["6NIOSSL17NIOSSLCertificateC9IPAddressO", "in_addr"]
+- ["6NIOSSL17NIOSSLCertificateC9IPAddressO", "ipv4"]
+- ["6NIOSSL17NIOSSLCertificateC9IPAddressO", "ipv6"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["St", "CNIOBoringSSLShims_sk_GENERAL_NAME_num"]
+- !private ["St", "CNIOBoringSSLShims_sk_GENERAL_NAME_value"]
+- !private ["St", "CNIOBoringSSL_ASN1_STRING_get0_data"]
+- !private ["St", "CNIOBoringSSL_ASN1_STRING_length"]
+- !private ["St", "CNIOBoringSSL_GENERAL_NAMES_free"]
+- ["St", "Element"]
+- !private ["St", "GEN_DNS"]
+- !private ["St", "GEN_IPADD"]
+- !private ["St", "Int"]
+- ["St", "Iterator"]
+- !private ["St", "UInt8"]
+- !private ["St", "UnsafeBufferPointer"]
+- ["St", ""]
+- ["St", "_Default_Iterator"]
+- ["St", "_copyContents"]
+- ["St", "_copyToContiguousArray"]
+- ["St", "_customContainsEquatableElement"]
+- !private ["St", "addressFromBytes"]
+- !private ["St", "fatalError"]
+- !private ["St", "in6_addr"]
+- !private ["St", "in_addr"]
+- !private ["St", "init"]
+- ["St", "makeIterator"]
+- !private ["St", "nameStack"]
+- ["St", "next"]
+- !private ["St", "nextIdx"]
+- !private ["St", "stackSize"]
+- ["St", "underestimatedCount"]
+- ["St", "withContiguousStorageIfAvailable"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeBytes"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- ["6NIOSSL17NIOSSLCertificateC", "=="]
+- ["6NIOSSL17NIOSSLCertificateC", "AlternativeName"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "Array"]
+- ["6NIOSSL17NIOSSLCertificateC", "BIO"]
+- ["6NIOSSL17NIOSSLCertificateC", "Bool"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "BoringSSLError"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CChar"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CInt"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSLShims_ERR_GET_LIB"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSLShims_ERR_GET_REASON"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_ASN1_STRING_to_UTF8"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_BIO_free"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_BIO_get_mem_data"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_BIO_new"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_BIO_new_mem_buf"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_BIO_read_filename"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_BIO_s_file"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_BIO_s_mem"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_ERR_clear_error"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_ERR_peek_error"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_OPENSSL_free"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_PEM_read_X509"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_PEM_read_bio_X509"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_PEM_read_bio_X509_AUX"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_NAME_ENTRY_get_data"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_NAME_get_entry"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_NAME_get_index_by_NID"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_cmp"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_free"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_get_ext_d2i"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_get_pubkey"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_X509_get_subject_name"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_d2i_X509_bio"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_d2i_X509_fp"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "CNIOBoringSSL_i2d_X509_bio"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "ERR_LIB_PEM"]
+- ["6NIOSSL17NIOSSLCertificateC", "Hasher"]
+- ["6NIOSSL17NIOSSLCertificateC", "IPAddress"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "Int"]
+- ["6NIOSSL17NIOSSLCertificateC", "Int8"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "NID_commonName"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "NID_subject_alt_name"]
+- ["6NIOSSL17NIOSSLCertificateC", "NIOSSLCertificate"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "NIOSSLError"]
+- ["6NIOSSL17NIOSSLCertificateC", "NIOSSLPublicKey"]
+- ["6NIOSSL17NIOSSLCertificateC", "NIOSSLSerializationFormats"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "OpaquePointer"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "PEM_R_NO_START_LINE"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "Posix"]
+- ["6NIOSSL17NIOSSLCertificateC", "String"]
+- ["6NIOSSL17NIOSSLCertificateC", "SubjectAltNameSequence"]
+- ["6NIOSSL17NIOSSLCertificateC", "UInt8"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "UnsafeBufferPointer"]
+- ["6NIOSSL17NIOSSLCertificateC", "UnsafeMutablePointer"]
+- ["6NIOSSL17NIOSSLCertificateC", "UnsafeMutableRawPointer"]
+- ["6NIOSSL17NIOSSLCertificateC", "UnsafeRawBufferPointer"]
+- ["6NIOSSL17NIOSSLCertificateC", "X509"]
+- ["6NIOSSL17NIOSSLCertificateC", "_rawHashValue"]
+- ["6NIOSSL17NIOSSLCertificateC", "_ref"]
+- ["6NIOSSL17NIOSSLCertificateC", "commonName"]
+- ["6NIOSSL17NIOSSLCertificateC", "deinit"]
+- ["6NIOSSL17NIOSSLCertificateC", "extractPublicKey"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "fclose"]
+- ["6NIOSSL17NIOSSLCertificateC", "fromPEMBuffer"]
+- ["6NIOSSL17NIOSSLCertificateC", "fromPEMBytes"]
+- ["6NIOSSL17NIOSSLCertificateC", "fromPEMFile"]
+- ["6NIOSSL17NIOSSLCertificateC", "fromUnsafePointer"]
+- ["6NIOSSL17NIOSSLCertificateC", "hash"]
+- ["6NIOSSL17NIOSSLCertificateC", "hashValue"]
+- ["6NIOSSL17NIOSSLCertificateC", "in6_addr"]
+- ["6NIOSSL17NIOSSLCertificateC", "in_addr"]
+- ["6NIOSSL17NIOSSLCertificateC", "init"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "readCertificatesFromBIO"]
+- ["6NIOSSL17NIOSSLCertificateC", "ref"]
+- ["6NIOSSL17NIOSSLCertificateC", "subjectAlternativeNames"]
+- ["6NIOSSL17NIOSSLCertificateC", "toDERBytes"]
+- !private ["6NIOSSL17NIOSSLCertificateC", "withUnsafeDERCertificateBuffer"]
+- !private ["6NIOSSL11NIOSSLErrorO", "deinit"]
+- !private ["6NIOSSL11NIOSSLErrorO", "failedToLoadCertificate"]
+- !private ["6NIOSSL11NIOSSLErrorO", "unableToAllocateBoringSSLObject"]
+- !private ["6NIOSSL15NIOSSLPublicKeyC", "fromInternalPointer"]
+- ["6NIOSSL26NIOSSLSerializationFormatsO", "der"]
+- ["6NIOSSL26NIOSSLSerializationFormatsO", "pem"]
+- !private ["Sj", "init"]
+- !private ["s13OpaquePointerV", "init"]
+- !private ["Sq", "dnsName"]
+- !private ["Sq", "ipAddress"]
+- !private ["Sq", "ipv4"]
+- !private ["Sq", "ipv6"]
+- !private ["Sq", "map"]
+- !private ["6NIOSSL5PosixO", "fopen"]
+- !private ["Sk", "append"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "CNIOBoringSSLShims_sk_GENERAL_NAME_num"]
+- !private ["ST", "CNIOBoringSSLShims_sk_GENERAL_NAME_value"]
+- !private ["ST", "CNIOBoringSSL_ASN1_STRING_get0_data"]
+- !private ["ST", "CNIOBoringSSL_ASN1_STRING_length"]
+- !private ["ST", "CNIOBoringSSL_GENERAL_NAMES_free"]
+- ["ST", "Element"]
+- !private ["ST", "GEN_DNS"]
+- !private ["ST", "GEN_IPADD"]
+- !private ["ST", "Int"]
+- ["ST", "Iterator"]
+- !private ["ST", "UInt8"]
+- !private ["ST", "UnsafeBufferPointer"]
+- ["ST", ""]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "addressFromBytes"]
+- !private ["ST", "append"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "fatalError"]
+- !private ["ST", "in6_addr"]
+- !private ["ST", "in_addr"]
+- !private ["ST", "init"]
+- ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "nameStack"]
+- ["ST", "next"]
+- !private ["ST", "nextIdx"]
+- !private ["ST", "stackSize"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "CNIOBoringSSLShims_sk_GENERAL_NAME_num"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "CNIOBoringSSLShims_sk_GENERAL_NAME_value"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "CNIOBoringSSL_ASN1_STRING_get0_data"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "CNIOBoringSSL_ASN1_STRING_length"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "CNIOBoringSSL_GENERAL_NAMES_free"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "Element"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "GEN_DNS"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "GEN_IPADD"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "Int"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "Iterator"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "NIOSSLCertificate"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "OpaquePointer"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "UInt8"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "UnsafeBufferPointer"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "_Default_Iterator"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "_copyContents"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "_copyToContiguousArray"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "_customContainsEquatableElement"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "addressFromBytes"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "deinit"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "fatalError"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "in6_addr"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "in_addr"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "init"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "makeIterator"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "nameStack"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "next"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "nextIdx"]
+- !private ["6NIOSSL22SubjectAltNameSequenceC", "stackSize"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "underestimatedCount"]
+- ["6NIOSSL22SubjectAltNameSequenceC", "withContiguousStorageIfAvailable"]
+- !private ["s5UInt8V", "init"]
+- !private ["SR", "baseAddress"]
+- !private ["SR", "count"]
+- !private ["SR", "init"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["SW", "baseAddress"]
+- !private ["SW", "count"]
+- !private ["SW", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "withUnsafeBytes"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBytes"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "withUnsafeBytes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "dnsName"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "ipAddress"]
+- !private ["s21_ObjectiveCBridgeableP", "ipv4"]
+- !private ["s21_ObjectiveCBridgeableP", "ipv6"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s14_StringElementP", "init"]
+- !private ["So15GENERAL_NAME_stV17__Unnamed_union_dV", "ia5"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "6NIOSSL17NIOSSLCertificateC15AlternativeNameO"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sz"
+- !private "6NIOSSL14BoringSSLErrorO"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So15GENERAL_NAME_stV"
+- "SH"
+- !private "s6HasherV"
+- "6NIOSSL17NIOSSLCertificateC9IPAddressO"
+- !private "Si"
+- !private "s5Int32V"
+- "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- "6NIOSSL17NIOSSLCertificateC"
+- !private "6NIOSSL11NIOSSLErrorO"
+- !private "6NIOSSL15NIOSSLPublicKeyC"
+- "6NIOSSL26NIOSSLSerializationFormatsO"
+- !private "Sj"
+- !private "s13OpaquePointerV"
+- !private "Sq"
+- !private "6NIOSSL5PosixO"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "6NIOSSL22SubjectAltNameSequenceC"
+- !private "s5UInt8V"
+- !private "SR"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "SW"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "So15GENERAL_NAME_stV17__Unnamed_union_dV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_asn1.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_tls1.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_dtls1.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pkcs12.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_e_os2.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ssl3.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_x509v3.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_base64.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_rc4.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_md4.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_poly1305.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_md5.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pkcs7.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pkcs8.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_x509.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_curve25519.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_chacha.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_sha.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_dsa.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ecdsa.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_rsa.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ex_data.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_asn1_mac.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_obj_mac.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cmac.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_hmac.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ec.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_aead.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_thread.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_nid.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ripemd.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_rand.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_engine.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_base.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_hkdf.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_conf.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_opensslconf.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_buf.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_bytestring.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_arm_arch.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_dh.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ecdh.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_lhash.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_siphash.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_blowfish.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_obj.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_stack.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_safestack.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_type_check.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pool.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ssl.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_is_boringssl.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_mem.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pem.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_boringssl_prefix_symbols_asm.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_span.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_bn.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_bio.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_crypto.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_srtp.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_evp.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ossl_typ.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_buffer.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cipher.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_err.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_aes.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_des.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_boringssl_prefix_symbols.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSLShims/include/CNIOBoringSSLShims.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_hrss.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_objects.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_asn1t.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cast.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_digest.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cpu.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_opensslv.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ec_key.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_x509_vfy.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a4d13c47f3b74d09f5fce6de07992d6c"

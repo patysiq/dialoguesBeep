@@ -1,0 +1,4 @@
+module CNIOBoringSSL {
+    umbrella header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL.h"
+    export *
+}

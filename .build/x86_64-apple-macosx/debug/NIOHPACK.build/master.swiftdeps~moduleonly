@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "8bdde15aac7f533a40321e08b884a3ad"
+build_time: [1592049947, 720237000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/DynamicHeaderTable.swift": [1591876889, 207807576]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKDecoder.swift": [1591876889, 208086092]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKEncoder.swift": [1591876889, 208526378]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKErrors.swift": [1591876889, 208959068]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKHeader.swift": [1591876889, 209424083]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HeaderTables.swift": [1591876889, 209852542]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanCoding.swift": [1591876889, 831417588]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanTables.swift": [1591876889, 211262551]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IndexedHeaderTable.swift": [1591876889, 211696432]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IntegerCoding.swift": [1591876889, 211908863]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/StaticHeaderTable.swift": [1591876889, 212077967]

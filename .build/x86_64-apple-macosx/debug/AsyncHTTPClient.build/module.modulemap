@@ -1,0 +1,4 @@
+module AsyncHTTPClient {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/AsyncHTTPClient-Swift.h"
+    requires objc
+}

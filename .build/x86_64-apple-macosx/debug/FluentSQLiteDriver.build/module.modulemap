@@ -1,0 +1,4 @@
+module FluentSQLiteDriver {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDriver-Swift.h"
+    requires objc
+}

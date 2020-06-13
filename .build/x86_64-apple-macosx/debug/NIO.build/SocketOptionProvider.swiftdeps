@@ -1,0 +1,287 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketOptionProvider"
+provides-nominal:
+- "3NIO20SocketOptionProviderP"
+- "3NIO17BaseSocketChannelC"
+provides-member:
+- ["3NIO20SocketOptionProviderP", ""]
+- ["3NIO17BaseSocketChannelC", ""]
+- ["3NIO20SocketOptionProviderP", "setSoLinger"]
+- ["3NIO20SocketOptionProviderP", "getSoLinger"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getTCPConnectionInfo"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BaseSocketChannel"
+- "CInt"
+- "CUnsignedChar"
+- "CUnsignedInt"
+- "EventLoop"
+- "EventLoopFuture"
+- !private "IPPROTO_IP"
+- !private "IPPROTO_IPV6"
+- !private "IPPROTO_TCP"
+- !private "IPV6_MULTICAST_HOPS"
+- !private "IPV6_MULTICAST_IF"
+- !private "IPV6_MULTICAST_LOOP"
+- !private "IP_MULTICAST_IF"
+- !private "IP_MULTICAST_LOOP"
+- !private "IP_MULTICAST_TTL"
+- !private "Int32"
+- !private "SOL_SOCKET"
+- !private "SO_LINGER"
+- "SocketOptionLevel"
+- "SocketOptionName"
+- "SocketOptionProvider"
+- !private "TCP_CONNECTION_INFO"
+- "Void"
+- !private "executeAndComplete"
+- "in_addr"
+- "linger"
+- "tcp_connection_info"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["3NIO17BaseSocketChannelC", "EventLoopFuture"]
+- !private ["3NIO17BaseSocketChannelC", "Int32"]
+- ["3NIO17BaseSocketChannelC", "SocketOptionLevel"]
+- ["3NIO17BaseSocketChannelC", "SocketOptionName"]
+- ["3NIO17BaseSocketChannelC", "Void"]
+- ["3NIO17BaseSocketChannelC", "deinit"]
+- ["3NIO17BaseSocketChannelC", "eventLoop"]
+- !private ["3NIO17BaseSocketChannelC", "executeAndComplete"]
+- ["3NIO17BaseSocketChannelC", "getSocketOption0"]
+- ["3NIO17BaseSocketChannelC", "setSocketOption0"]
+- !private ["3NIO17BaseSocketChannelC", "socket"]
+- ["3NIO17BaseSocketChannelC", "unsafeGetSocketOption"]
+- ["3NIO17BaseSocketChannelC", "unsafeSetSocketOption"]
+- !private ["3NIO18BaseSocketProtocolP", "getOption"]
+- !private ["3NIO18BaseSocketProtocolP", "setOption"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["3NIO7ChannelP", "Int32"]
+- !private ["3NIO7ChannelP", "Void"]
+- ["3NIO7ChannelP", "eventLoop"]
+- !private ["3NIO7ChannelP", "executeAndComplete"]
+- !private ["3NIO7ChannelP", "getSocketOption0"]
+- !private ["3NIO7ChannelP", "setSocketOption0"]
+- !private ["3NIO7ChannelP", "socket"]
+- ["3NIO7ChannelP", "unsafeGetSocketOption"]
+- ["3NIO7ChannelP", "unsafeSetSocketOption"]
+- !private ["3NIO11ChannelCoreP", "Int32"]
+- !private ["3NIO11ChannelCoreP", "Void"]
+- ["3NIO11ChannelCoreP", "eventLoop"]
+- !private ["3NIO11ChannelCoreP", "executeAndComplete"]
+- !private ["3NIO11ChannelCoreP", "getSocketOption0"]
+- !private ["3NIO11ChannelCoreP", "setSocketOption0"]
+- !private ["3NIO11ChannelCoreP", "socket"]
+- ["3NIO11ChannelCoreP", "unsafeGetSocketOption"]
+- ["3NIO11ChannelCoreP", "unsafeSetSocketOption"]
+- !private ["3NIO22ChannelOutboundInvokerP", "Int32"]
+- !private ["3NIO22ChannelOutboundInvokerP", "Void"]
+- ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "executeAndComplete"]
+- !private ["3NIO22ChannelOutboundInvokerP", "getSocketOption0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "setSocketOption0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "socket"]
+- ["3NIO22ChannelOutboundInvokerP", "unsafeGetSocketOption"]
+- ["3NIO22ChannelOutboundInvokerP", "unsafeSetSocketOption"]
+- !private ["SL", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "getOption"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setOption"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "init"]
+- !private ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO9EventLoopP", "makePromise"]
+- !private ["3NIO9EventLoopP", "submit"]
+- !private ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "makePromise"]
+- !private ["3NIO14EventLoopGroupP", "submit"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["Sj", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["3NIO17SelectableChannelP", "Int32"]
+- !private ["3NIO17SelectableChannelP", "Void"]
+- ["3NIO17SelectableChannelP", "eventLoop"]
+- !private ["3NIO17SelectableChannelP", "executeAndComplete"]
+- !private ["3NIO17SelectableChannelP", "getSocketOption0"]
+- !private ["3NIO17SelectableChannelP", "setSocketOption0"]
+- !private ["3NIO17SelectableChannelP", "socket"]
+- ["3NIO17SelectableChannelP", "unsafeGetSocketOption"]
+- ["3NIO17SelectableChannelP", "unsafeSetSocketOption"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["3NIO20SocketOptionProviderP", "CInt"]
+- ["3NIO20SocketOptionProviderP", "CUnsignedChar"]
+- ["3NIO20SocketOptionProviderP", "CUnsignedInt"]
+- ["3NIO20SocketOptionProviderP", "EventLoop"]
+- ["3NIO20SocketOptionProviderP", "EventLoopFuture"]
+- !private ["3NIO20SocketOptionProviderP", "IPPROTO_IP"]
+- !private ["3NIO20SocketOptionProviderP", "IPPROTO_IPV6"]
+- !private ["3NIO20SocketOptionProviderP", "IPPROTO_TCP"]
+- !private ["3NIO20SocketOptionProviderP", "IPV6_MULTICAST_HOPS"]
+- !private ["3NIO20SocketOptionProviderP", "IPV6_MULTICAST_IF"]
+- !private ["3NIO20SocketOptionProviderP", "IPV6_MULTICAST_LOOP"]
+- !private ["3NIO20SocketOptionProviderP", "IP_MULTICAST_IF"]
+- !private ["3NIO20SocketOptionProviderP", "IP_MULTICAST_LOOP"]
+- !private ["3NIO20SocketOptionProviderP", "IP_MULTICAST_TTL"]
+- !private ["3NIO20SocketOptionProviderP", "Int32"]
+- !private ["3NIO20SocketOptionProviderP", "SOL_SOCKET"]
+- !private ["3NIO20SocketOptionProviderP", "SO_LINGER"]
+- ["3NIO20SocketOptionProviderP", "SocketOptionLevel"]
+- ["3NIO20SocketOptionProviderP", "SocketOptionName"]
+- !private ["3NIO20SocketOptionProviderP", "TCP_CONNECTION_INFO"]
+- ["3NIO20SocketOptionProviderP", "Void"]
+- ["3NIO20SocketOptionProviderP", ""]
+- ["3NIO20SocketOptionProviderP", "eventLoop"]
+- !private ["3NIO20SocketOptionProviderP", "executeAndComplete"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "getIPv6MulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "getSoLinger"]
+- !private ["3NIO20SocketOptionProviderP", "getSocketOption0"]
+- ["3NIO20SocketOptionProviderP", "getTCPConnectionInfo"]
+- ["3NIO20SocketOptionProviderP", "in_addr"]
+- ["3NIO20SocketOptionProviderP", "linger"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "setIPMulticastTTL"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastHops"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastIF"]
+- ["3NIO20SocketOptionProviderP", "setIPv6MulticastLoop"]
+- ["3NIO20SocketOptionProviderP", "setSoLinger"]
+- !private ["3NIO20SocketOptionProviderP", "setSocketOption0"]
+- !private ["3NIO20SocketOptionProviderP", "socket"]
+- ["3NIO20SocketOptionProviderP", "tcp_connection_info"]
+- ["3NIO20SocketOptionProviderP", "unsafeGetSocketOption"]
+- ["3NIO20SocketOptionProviderP", "unsafeSetSocketOption"]
+- !private ["Sx", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "3NIO17BaseSocketChannelC"
+- !private "3NIO18BaseSocketProtocolP"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "3NIO7ChannelP"
+- "3NIO11ChannelCoreP"
+- "3NIO22ChannelOutboundInvokerP"
+- !private "SL"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "Sj"
+- !private "s10SIMDScalarP"
+- "3NIO17SelectableChannelP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "3NIO20SocketOptionProviderP"
+- !private "Sx"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "86ab4787d27c30b4c145ddd2cde8b108"

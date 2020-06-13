@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "61ab5b8b90931f1db94b6f38b54e457c"
+build_time: [1592049958, 381368000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/Exports.swift": [1591876888, 750773269]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteConfiguration.swift": [1591876888, 751077878]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDatabase.swift": [1591876888, 793763512]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDriver.swift": [1591876888, 794107482]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteConverterDelegate.swift": [1591876888, 798732805]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteError+Database.swift": [1591876888, 752040241]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteRow+Database.swift": [1591876888, 799269602]

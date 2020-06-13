@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "6fc47c2ef19bff3505b0a2d33cda24b5"
+build_time: [1592049978, 116335000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/XCTVapor/Exports.swift": [1591876896, 82285273]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/XCTVapor/Utilities.swift": [1591876896, 82506961]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/XCTVapor/XCTApplication.swift": [1591876896, 266436648]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/XCTVapor/XCTHTTPRequest.swift": [1591876896, 266719549]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/XCTVapor/XCTHTTPResponse.swift": [1591876896, 266979212]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/XCTVapor/XCTVaporTests.swift": [1591876896, 83713426]

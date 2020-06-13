@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "1203901da461f5d869b3d832fced9b77"
+build_time: [1592049838, 370980000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift": [1591876893, 693771466]

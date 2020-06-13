@@ -1,0 +1,194 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_FluentSQLiteDriver"
+- "_ConnectionPoolSQLiteDatabase"
+provides-nominal:
+- "18FluentSQLiteDriver01_abC0V"
+- "18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV"
+provides-member:
+- ["18FluentSQLiteDriver01_abC0V", ""]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Database"
+- "DatabaseContext"
+- "DatabaseDriver"
+- "EventLoop"
+- "EventLoopConnectionPool"
+- "EventLoopFuture"
+- "EventLoopGroup"
+- "EventLoopGroupConnectionPool"
+- "Int"
+- "Logger"
+- "SQLiteConnection"
+- "SQLiteConnectionSource"
+- "SQLiteData"
+- "SQLiteDatabase"
+- "SQLiteRow"
+- "String"
+- "Void"
+- "_ConnectionPoolSQLiteDatabase"
+- !private "_FluentSQLiteDatabase"
+- "_FluentSQLiteDriver"
+depends-member:
+- !private ["8AsyncKit18ConnectionPoolItemP", "lastAutoincrementID"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "query"]
+- !private ["9FluentKit8DatabaseP", "init"]
+- !private ["9FluentKit15DatabaseContextV", "eventLoop"]
+- !private ["9FluentKit15DatabaseContextV", "logger"]
+- ["9FluentKit14DatabaseDriverP", ""]
+- !private ["9FluentKit14DatabaseDriverP", "_ConnectionPoolSQLiteDatabase"]
+- !private ["9FluentKit14DatabaseDriverP", "_FluentSQLiteDatabase"]
+- ["9FluentKit14DatabaseDriverP", "makeDatabase"]
+- !private ["9FluentKit14DatabaseDriverP", "pool"]
+- ["9FluentKit14DatabaseDriverP", "shutdown"]
+- !private ["8AsyncKit23EventLoopConnectionPoolC", "eventLoop"]
+- !private ["8AsyncKit23EventLoopConnectionPoolC", "withConnection"]
+- !private ["8AsyncKit28EventLoopGroupConnectionPoolC", "eventLoopGroup"]
+- !private ["8AsyncKit28EventLoopGroupConnectionPoolC", "pool"]
+- !private ["8AsyncKit28EventLoopGroupConnectionPoolC", "shutdown"]
+- !private ["6SQLKit11SQLDatabaseP", "init"]
+- !private ["9SQLiteNIO0A10ConnectionC", "lastAutoincrementID"]
+- !private ["9SQLiteNIO0A10ConnectionC", "query"]
+- ["9SQLiteNIO0A8DatabaseP", ""]
+- ["9SQLiteNIO0A8DatabaseP", "eventLoop"]
+- !private ["9SQLiteNIO0A8DatabaseP", "init"]
+- !private ["9SQLiteNIO0A8DatabaseP", "lastAutoincrementID"]
+- ["9SQLiteNIO0A8DatabaseP", "logger"]
+- !private ["9SQLiteNIO0A8DatabaseP", "pool"]
+- ["9SQLiteNIO0A8DatabaseP", "query"]
+- ["9SQLiteNIO0A8DatabaseP", "withConnection"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "EventLoop"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "EventLoopConnectionPool"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "EventLoopFuture"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "Int"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "Logger"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteConnection"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteConnectionSource"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteData"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteRow"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "String"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "Void"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "deinit"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "eventLoop"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "init"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "lastAutoincrementID"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "logger"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "pool"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "query"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "withConnection"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "deinit"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "init"]
+- ["18FluentSQLiteDriver01_abC0V", "Database"]
+- ["18FluentSQLiteDriver01_abC0V", "DatabaseContext"]
+- ["18FluentSQLiteDriver01_abC0V", "EventLoopGroup"]
+- ["18FluentSQLiteDriver01_abC0V", "EventLoopGroupConnectionPool"]
+- ["18FluentSQLiteDriver01_abC0V", "SQLiteConnectionSource"]
+- !private ["18FluentSQLiteDriver01_abC0V", "_ConnectionPoolSQLiteDatabase"]
+- !private ["18FluentSQLiteDriver01_abC0V", "_FluentSQLiteDatabase"]
+- ["18FluentSQLiteDriver01_abC0V", "deinit"]
+- ["18FluentSQLiteDriver01_abC0V", "eventLoopGroup"]
+- ["18FluentSQLiteDriver01_abC0V", "init"]
+- ["18FluentSQLiteDriver01_abC0V", "makeDatabase"]
+- ["18FluentSQLiteDriver01_abC0V", "pool"]
+- ["18FluentSQLiteDriver01_abC0V", "shutdown"]
+depends-nominal:
+- !private "8AsyncKit18ConnectionPoolItemP"
+- !private "9FluentKit8DatabaseP"
+- !private "9FluentKit15DatabaseContextV"
+- "9FluentKit14DatabaseDriverP"
+- !private "8AsyncKit23EventLoopConnectionPoolC"
+- !private "8AsyncKit28EventLoopGroupConnectionPoolC"
+- !private "6SQLKit11SQLDatabaseP"
+- !private "9SQLiteNIO0A10ConnectionC"
+- "9SQLiteNIO0A8DatabaseP"
+- "18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV"
+- !private "18FluentSQLiteDriver01_aB8DatabaseV"
+- "18FluentSQLiteDriver01_abC0V"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5653105909b8679c7993baf63eb6be33"

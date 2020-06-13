@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e8bfb9f3dc287717db323b4835c303bf"
+build_time: [1592049953, 473904000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseQuery+SQL.swift": [1591876892, 221385951]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseSchema+SQL.swift": [1591876892, 107316752]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-kit/Sources/FluentSQL/Exports.swift": [1591876892, 108110294]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLJSONColumnPath.swift": [1591876892, 108465107]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQueryConverter.swift": [1591876892, 221843826]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLSchemaConverter.swift": [1591876892, 222673342]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent-kit/Sources/FluentSQL/Utilities.swift": [1591876892, 109371823]

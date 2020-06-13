@@ -1,0 +1,4 @@
+module COperatingSystem {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/COperatingSystem-Swift.h"
+    requires objc
+}

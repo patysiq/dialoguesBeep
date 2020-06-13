@@ -1,0 +1,4 @@
+module SQLiteKit {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteKit-Swift.h"
+    requires objc
+}

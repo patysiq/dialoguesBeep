@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+    export *
+}

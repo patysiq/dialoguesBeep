@@ -1,0 +1,311 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnumProperty"
+provides-nominal:
+- "9FluentKit12EnumPropertyC"
+provides-member:
+- ["9FluentKit6FieldsP", ""]
+- ["9FluentKit12EnumPropertyC", ""]
+- ["9FluentKit6FieldsP", "Enum"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyField"
+- "AnyProperty"
+- "AssignmentPrecedence"
+- "Codable"
+- "DatabaseInput"
+- "DatabaseOutput"
+- "Decoder"
+- "Encoder"
+- "EnumProperty"
+- "FieldKey"
+- "FieldProperty"
+- "FieldProtocol"
+- "Fields"
+- !private "FloatLiteralType"
+- "FluentKit"
+- !private "IntegerLiteralType"
+- "PropertyProtocol"
+- "RawRepresentable"
+- "String"
+- !private "StringLiteralType"
+- !private "fatalError"
+depends-member:
+- ["9FluentKit8AnyFieldP", "Model"]
+- ["9FluentKit8AnyFieldP", "Value"]
+- ["9FluentKit8AnyFieldP", ""]
+- ["9FluentKit8AnyFieldP", "_Default_Model"]
+- ["9FluentKit8AnyFieldP", "_Default_Value"]
+- ["9FluentKit8AnyFieldP", "anyValue"]
+- ["9FluentKit8AnyFieldP", "anyValueType"]
+- ["9FluentKit8AnyFieldP", "decode"]
+- ["9FluentKit8AnyFieldP", "encode"]
+- !private ["9FluentKit8AnyFieldP", "fatalError"]
+- !private ["9FluentKit8AnyFieldP", "field"]
+- !private ["9FluentKit8AnyFieldP", "init"]
+- ["9FluentKit8AnyFieldP", "input"]
+- !private ["9FluentKit8AnyFieldP", "inputValue"]
+- !private ["9FluentKit8AnyFieldP", "key"]
+- ["9FluentKit8AnyFieldP", "nested"]
+- ["9FluentKit8AnyFieldP", "output"]
+- !private ["9FluentKit8AnyFieldP", "outputValue"]
+- ["9FluentKit8AnyFieldP", "path"]
+- ["9FluentKit8AnyFieldP", "value"]
+- !private ["9FluentKit15AnyOptionalTypeP", "enumCase"]
+- !private ["9FluentKit15AnyOptionalTypeP", "flatMap"]
+- ["9FluentKit11AnyPropertyP", "Model"]
+- ["9FluentKit11AnyPropertyP", "Value"]
+- ["9FluentKit11AnyPropertyP", ""]
+- ["9FluentKit11AnyPropertyP", "_Default_Model"]
+- ["9FluentKit11AnyPropertyP", "_Default_Value"]
+- ["9FluentKit11AnyPropertyP", "anyValue"]
+- ["9FluentKit11AnyPropertyP", "anyValueType"]
+- ["9FluentKit11AnyPropertyP", "decode"]
+- ["9FluentKit11AnyPropertyP", "encode"]
+- !private ["9FluentKit11AnyPropertyP", "fatalError"]
+- !private ["9FluentKit11AnyPropertyP", "field"]
+- !private ["9FluentKit11AnyPropertyP", "init"]
+- ["9FluentKit11AnyPropertyP", "input"]
+- !private ["9FluentKit11AnyPropertyP", "inputValue"]
+- !private ["9FluentKit11AnyPropertyP", "key"]
+- ["9FluentKit11AnyPropertyP", "nested"]
+- ["9FluentKit11AnyPropertyP", "output"]
+- !private ["9FluentKit11AnyPropertyP", "outputValue"]
+- ["9FluentKit11AnyPropertyP", "path"]
+- ["9FluentKit11AnyPropertyP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "enumCase"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s17CustomReflectableP", "enumCase"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "enumCase"]
+- ["Se", "Codable"]
+- ["Se", "EnumProperty"]
+- ["Se", "RawRepresentable"]
+- ["Se", "String"]
+- !private ["Se", "enumCase"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "rawValue"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "Codable"]
+- ["SE", "EnumProperty"]
+- ["SE", "RawRepresentable"]
+- ["SE", "String"]
+- !private ["SE", "enumCase"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "rawValue"]
+- ["9FluentKit12EnumPropertyC", "AnyProperty"]
+- ["9FluentKit12EnumPropertyC", "DatabaseInput"]
+- ["9FluentKit12EnumPropertyC", "DatabaseOutput"]
+- ["9FluentKit12EnumPropertyC", "Decoder"]
+- ["9FluentKit12EnumPropertyC", "Encoder"]
+- ["9FluentKit12EnumPropertyC", "EnumProperty"]
+- ["9FluentKit12EnumPropertyC", "FieldKey"]
+- ["9FluentKit12EnumPropertyC", "FieldProperty"]
+- ["9FluentKit12EnumPropertyC", "Model"]
+- ["9FluentKit12EnumPropertyC", "String"]
+- ["9FluentKit12EnumPropertyC", "Value"]
+- ["9FluentKit12EnumPropertyC", "_Default_Model"]
+- ["9FluentKit12EnumPropertyC", "_Default_Value"]
+- ["9FluentKit12EnumPropertyC", "anyValue"]
+- ["9FluentKit12EnumPropertyC", "anyValueType"]
+- ["9FluentKit12EnumPropertyC", "decode"]
+- ["9FluentKit12EnumPropertyC", "deinit"]
+- ["9FluentKit12EnumPropertyC", "encode"]
+- !private ["9FluentKit12EnumPropertyC", "fatalError"]
+- ["9FluentKit12EnumPropertyC", "field"]
+- ["9FluentKit12EnumPropertyC", "init"]
+- ["9FluentKit12EnumPropertyC", "input"]
+- ["9FluentKit12EnumPropertyC", "nested"]
+- ["9FluentKit12EnumPropertyC", "output"]
+- ["9FluentKit12EnumPropertyC", "path"]
+- ["9FluentKit12EnumPropertyC", "projectedValue"]
+- ["9FluentKit12EnumPropertyC", "value"]
+- ["9FluentKit12EnumPropertyC", "wrappedValue"]
+- !private ["SQ", "enumCase"]
+- !private ["SQ", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "enumCase"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["9FluentKit8FieldKeyO", "deinit"]
+- !private ["9FluentKit13FieldPropertyC", "decode"]
+- !private ["9FluentKit13FieldPropertyC", "deinit"]
+- !private ["9FluentKit13FieldPropertyC", "encode"]
+- !private ["9FluentKit13FieldPropertyC", "init"]
+- !private ["9FluentKit13FieldPropertyC", "input"]
+- !private ["9FluentKit13FieldPropertyC", "inputValue"]
+- !private ["9FluentKit13FieldPropertyC", "key"]
+- !private ["9FluentKit13FieldPropertyC", "output"]
+- !private ["9FluentKit13FieldPropertyC", "outputValue"]
+- !private ["9FluentKit13FieldPropertyC", "path"]
+- ["9FluentKit13FieldProtocolP", "Model"]
+- ["9FluentKit13FieldProtocolP", "Value"]
+- ["9FluentKit13FieldProtocolP", ""]
+- ["9FluentKit13FieldProtocolP", "_Default_Model"]
+- ["9FluentKit13FieldProtocolP", "_Default_Value"]
+- ["9FluentKit13FieldProtocolP", "anyValue"]
+- ["9FluentKit13FieldProtocolP", "anyValueType"]
+- ["9FluentKit13FieldProtocolP", "decode"]
+- ["9FluentKit13FieldProtocolP", "encode"]
+- !private ["9FluentKit13FieldProtocolP", "fatalError"]
+- !private ["9FluentKit13FieldProtocolP", "field"]
+- !private ["9FluentKit13FieldProtocolP", "init"]
+- ["9FluentKit13FieldProtocolP", "input"]
+- !private ["9FluentKit13FieldProtocolP", "inputValue"]
+- !private ["9FluentKit13FieldProtocolP", "key"]
+- ["9FluentKit13FieldProtocolP", "nested"]
+- ["9FluentKit13FieldProtocolP", "output"]
+- !private ["9FluentKit13FieldProtocolP", "outputValue"]
+- ["9FluentKit13FieldProtocolP", "path"]
+- ["9FluentKit13FieldProtocolP", "value"]
+- ["9FluentKit6FieldsP", "Codable"]
+- ["9FluentKit6FieldsP", "Enum"]
+- ["9FluentKit6FieldsP", "EnumProperty"]
+- ["9FluentKit6FieldsP", "RawRepresentable"]
+- ["9FluentKit6FieldsP", "String"]
+- !private ["SH", "enumCase"]
+- !private ["SH", "flatMap"]
+- !private ["Sq", "enumCase"]
+- !private ["Sq", "flatMap"]
+- !private ["9FluentKit12OptionalTypeP", "enumCase"]
+- !private ["9FluentKit12OptionalTypeP", "flatMap"]
+- ["9FluentKit16PropertyProtocolP", "Model"]
+- ["9FluentKit16PropertyProtocolP", "Value"]
+- ["9FluentKit16PropertyProtocolP", ""]
+- ["9FluentKit16PropertyProtocolP", "_Default_Model"]
+- ["9FluentKit16PropertyProtocolP", "_Default_Value"]
+- ["9FluentKit16PropertyProtocolP", "anyValue"]
+- ["9FluentKit16PropertyProtocolP", "anyValueType"]
+- ["9FluentKit16PropertyProtocolP", "decode"]
+- ["9FluentKit16PropertyProtocolP", "encode"]
+- !private ["9FluentKit16PropertyProtocolP", "fatalError"]
+- !private ["9FluentKit16PropertyProtocolP", "field"]
+- !private ["9FluentKit16PropertyProtocolP", "init"]
+- ["9FluentKit16PropertyProtocolP", "input"]
+- !private ["9FluentKit16PropertyProtocolP", "inputValue"]
+- !private ["9FluentKit16PropertyProtocolP", "key"]
+- ["9FluentKit16PropertyProtocolP", "nested"]
+- ["9FluentKit16PropertyProtocolP", "output"]
+- !private ["9FluentKit16PropertyProtocolP", "outputValue"]
+- ["9FluentKit16PropertyProtocolP", "path"]
+- ["9FluentKit16PropertyProtocolP", "value"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["9FluentKit13DatabaseQueryV5ValueO", "deinit"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "enumCase"]
+- !private ["s21_ObjectiveCBridgeableP", "enumCase"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+depends-nominal:
+- "9FluentKit8AnyFieldP"
+- !private "9FluentKit15AnyOptionalTypeP"
+- "9FluentKit11AnyPropertyP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "9FluentKit12EnumPropertyC"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "9FluentKit8FieldKeyO"
+- !private "9FluentKit13FieldPropertyC"
+- "9FluentKit13FieldProtocolP"
+- "9FluentKit6FieldsP"
+- !private "SH"
+- !private "Sq"
+- !private "9FluentKit12OptionalTypeP"
+- "9FluentKit16PropertyProtocolP"
+- !private "SY"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "9FluentKit13DatabaseQueryV5ValueO"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2822d84e4d66d4fd3f5260e6bb739939"

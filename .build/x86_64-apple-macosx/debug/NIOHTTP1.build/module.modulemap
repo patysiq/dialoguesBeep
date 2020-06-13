@@ -1,0 +1,4 @@
+module NIOHTTP1 {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/NIOHTTP1-Swift.h"
+    requires objc
+}

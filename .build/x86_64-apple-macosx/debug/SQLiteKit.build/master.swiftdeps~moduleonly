@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "0f6fee3a8e4712d739957925d1b71944"
+build_time: [1592049954, 849621000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/Exports.swift": [1591876891, 470087759]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteConnection+SQLKit.swift": [1591876891, 470269280]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteConnectionSource.swift": [1591876891, 470512104]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteDataDecoder.swift": [1591876891, 470701076]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteDataEncoder.swift": [1591876891, 470875248]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteDialect.swift": [1591876891, 471138129]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteRow+SQLRow.swift": [1591876891, 503802589]

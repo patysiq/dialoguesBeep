@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "707d0ac939c898597501ab8a72457155"
+build_time: [1592049978, 118072000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent/Sources/Fluent/Exports.swift": [1591876892, 555450076]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": [1591876892, 555910239]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": [1591876892, 598744535]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": [1591876892, 599349005]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": [1591876892, 556938946]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent/Sources/Fluent/ModelUser.swift": [1591876892, 599550098]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/fluent/Sources/Fluent/ModelUserToken.swift": [1591876892, 599707690]

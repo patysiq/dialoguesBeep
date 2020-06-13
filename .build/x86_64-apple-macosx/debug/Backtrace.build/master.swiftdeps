@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "cac510466ae64cf552fac8845ca83e8d"
+build_time: [1592049925, 947680000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-backtrace/Sources/Backtrace/Backtrace.swift": [1591876892, 893737557]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-backtrace/Sources/Backtrace/Demangle.swift": [1591876892, 894050121]

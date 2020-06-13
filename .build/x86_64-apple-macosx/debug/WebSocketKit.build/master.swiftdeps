@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "765dafe4aff1a7746d79e1557f032bbd"
+build_time: [1592049956, 610369000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift": [1591876891, 757702487]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPInitialRequestHandler.swift": [1591876891, 758081638]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift": [1591876891, 758287031]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift": [1591876891, 795682725]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift": [1591876891, 758677937]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift": [1591876891, 796255338]

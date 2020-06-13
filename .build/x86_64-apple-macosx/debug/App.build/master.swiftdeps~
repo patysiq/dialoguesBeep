@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "cf5911dbc2c36112724bf7f11a64f909"
+build_time: [1592050771, 501814000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/Sources/App/Controllers/TodoController.swift": [1592050586, 289851772]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/Sources/App/Migrations/CreateTodo.swift": [1592050357, 159160013]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/Sources/App/Models/Todo.swift": [1592050428, 301942253]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/Sources/App/configure.swift": [1592050496, 328147036]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/Sources/App/routes.swift": [1592050603, 335224069]

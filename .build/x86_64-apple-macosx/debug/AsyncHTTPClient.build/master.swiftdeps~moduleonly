@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "ac4737df0acc3098cf73b5b8658fe6b0"
+build_time: [1592049958, 149801000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient+HTTPCookie.swift": [1591876890, 430614134]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient.swift": [1591876890, 431032888]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClientProxyHandler.swift": [1591876890, 431346663]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPHandler.swift": [1591876890, 431937735]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/RequestValidation.swift": [1591876890, 432275330]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/Utils.swift": [1591876890, 432579997]

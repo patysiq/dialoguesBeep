@@ -1,0 +1,538 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EndpointCacheError"
+- "EndpointCache"
+provides-nominal:
+- "5Vapor18EndpointCacheErrorO"
+- "5Vapor13EndpointCacheC"
+provides-member:
+- ["5Vapor18EndpointCacheErrorO", ""]
+- ["5Vapor13EndpointCacheC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private "??"
+- !private "Abort"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Client"
+- !private "ClientResponse"
+- "Date"
+- "Decodable"
+- !private "Double"
+- "EndpointCache"
+- "EndpointCacheError"
+- "Error"
+- "EventLoop"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPStatus"
+- !private "IntegerLiteralType"
+- "Lock"
+- "Logger"
+- "Request"
+- !private "StringLiteralType"
+- "Swift"
+- "URI"
+- !private "||"
+depends-member:
+- !private ["5Vapor5AbortV", "deinit"]
+- !private ["5Vapor5AbortV", "init"]
+- !private ["5Vapor10AbortErrorP", "init"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "add"]
+- !private ["SK", "cacheControl"]
+- !private ["SK", "expirationDate"]
+- !private ["SK", "firstValue"]
+- !private ["SK", "ifModifiedSince"]
+- !private ["SK", "ifNoneMatch"]
+- !private ["SK", "lastModified"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "ifModifiedSince"]
+- !private ["s7CVarArgP", "ifNoneMatch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE12CacheControlV", "noCache"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE12CacheControlV", "noStore"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE12CacheControlV", "staleIfError"]
+- !private ["5Vapor6ClientP", "get"]
+- !private ["5Vapor14ClientResponseV", "content"]
+- !private ["5Vapor14ClientResponseV", "headers"]
+- !private ["5Vapor14ClientResponseV", "status"]
+- !private ["5Vapor22CodingKeyRepresentableP", "ifModifiedSince"]
+- !private ["5Vapor22CodingKeyRepresentableP", "ifNoneMatch"]
+- !private ["Sl", "add"]
+- !private ["Sl", "cacheControl"]
+- !private ["Sl", "expirationDate"]
+- !private ["Sl", "firstValue"]
+- !private ["Sl", "ifModifiedSince"]
+- !private ["Sl", "ifNoneMatch"]
+- !private ["Sl", "lastModified"]
+- !private ["SL", "addingTimeInterval"]
+- !private ["SL", "ifModifiedSince"]
+- !private ["SL", "ifNoneMatch"]
+- !private ["SL", "init"]
+- !private ["5Vapor7ContentP", "ifModifiedSince"]
+- !private ["5Vapor7ContentP", "ifNoneMatch"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor16ContentContainerP", "decode"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "cacheControl"]
+- !private ["s28CustomDebugStringConvertibleP", "expirationDate"]
+- !private ["s28CustomDebugStringConvertibleP", "firstValue"]
+- !private ["s28CustomDebugStringConvertibleP", "ifModifiedSince"]
+- !private ["s28CustomDebugStringConvertibleP", "ifNoneMatch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastModified"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- !private ["s17CustomReflectableP", "ifModifiedSince"]
+- !private ["s17CustomReflectableP", "ifNoneMatch"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "cacheControl"]
+- !private ["s23CustomStringConvertibleP", "client"]
+- !private ["s23CustomStringConvertibleP", "content"]
+- !private ["s23CustomStringConvertibleP", "eTag"]
+- !private ["s23CustomStringConvertibleP", "eventLoop"]
+- !private ["s23CustomStringConvertibleP", "expirationDate"]
+- !private ["s23CustomStringConvertibleP", "firstValue"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "ifModifiedSince"]
+- !private ["s23CustomStringConvertibleP", "ifNoneMatch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastModified"]
+- !private ["s23CustomStringConvertibleP", "logger"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "add"]
+- !private ["Se", "addingTimeInterval"]
+- !private ["Se", "cacheControl"]
+- !private ["Se", "content"]
+- !private ["Se", "eTag"]
+- !private ["Se", "expirationDate"]
+- !private ["Se", "firstValue"]
+- !private ["Se", "headers"]
+- !private ["Se", "ifModifiedSince"]
+- !private ["Se", "ifNoneMatch"]
+- !private ["Se", "init"]
+- !private ["Se", "internalServerError"]
+- !private ["Se", "lastModified"]
+- !private ["Se", "notModified"]
+- !private ["Se", "ok"]
+- !private ["Se", "status"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["SE", "add"]
+- !private ["SE", "addingTimeInterval"]
+- !private ["SE", "cacheControl"]
+- !private ["SE", "content"]
+- !private ["SE", "eTag"]
+- !private ["SE", "expirationDate"]
+- !private ["SE", "firstValue"]
+- !private ["SE", "headers"]
+- !private ["SE", "ifModifiedSince"]
+- !private ["SE", "ifNoneMatch"]
+- !private ["SE", "init"]
+- !private ["SE", "internalServerError"]
+- !private ["SE", "lastModified"]
+- !private ["SE", "notModified"]
+- !private ["SE", "ok"]
+- !private ["SE", "status"]
+- !private ["5Vapor13EndpointCacheC", "Abort"]
+- ["5Vapor13EndpointCacheC", "Client"]
+- !private ["5Vapor13EndpointCacheC", "ClientResponse"]
+- ["5Vapor13EndpointCacheC", "Date"]
+- !private ["5Vapor13EndpointCacheC", "Double"]
+- !private ["5Vapor13EndpointCacheC", "EndpointCacheError"]
+- ["5Vapor13EndpointCacheC", "EventLoop"]
+- ["5Vapor13EndpointCacheC", "EventLoopFuture"]
+- ["5Vapor13EndpointCacheC", "HTTPHeaders"]
+- ["5Vapor13EndpointCacheC", "Lock"]
+- ["5Vapor13EndpointCacheC", "Logger"]
+- ["5Vapor13EndpointCacheC", "Request"]
+- ["5Vapor13EndpointCacheC", "URI"]
+- !private ["5Vapor13EndpointCacheC", "cacheUntil"]
+- !private ["5Vapor13EndpointCacheC", "cached"]
+- !private ["5Vapor13EndpointCacheC", "clearCache"]
+- ["5Vapor13EndpointCacheC", "deinit"]
+- !private ["5Vapor13EndpointCacheC", "download"]
+- ["5Vapor13EndpointCacheC", "get"]
+- !private ["5Vapor13EndpointCacheC", "headers"]
+- ["5Vapor13EndpointCacheC", "init"]
+- !private ["5Vapor13EndpointCacheC", "request"]
+- !private ["5Vapor13EndpointCacheC", "sync"]
+- !private ["5Vapor13EndpointCacheC", "uri"]
+- ["5Vapor18EndpointCacheErrorO", "Error"]
+- ["5Vapor18EndpointCacheErrorO", "HTTPStatus"]
+- ["5Vapor18EndpointCacheErrorO", "URI"]
+- ["5Vapor18EndpointCacheErrorO", "_code"]
+- ["5Vapor18EndpointCacheErrorO", "_domain"]
+- ["5Vapor18EndpointCacheErrorO", "_getEmbeddedNSError"]
+- ["5Vapor18EndpointCacheErrorO", "_userInfo"]
+- ["5Vapor18EndpointCacheErrorO", "contentDecodeFailure"]
+- ["5Vapor18EndpointCacheErrorO", "deinit"]
+- ["5Vapor18EndpointCacheErrorO", "unexpctedResponseStatus"]
+- !private ["SQ", "add"]
+- !private ["SQ", "addingTimeInterval"]
+- !private ["SQ", "cacheControl"]
+- !private ["SQ", "content"]
+- !private ["SQ", "eTag"]
+- !private ["SQ", "expirationDate"]
+- !private ["SQ", "firstValue"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapError"]
+- !private ["SQ", "flatMapThrowing"]
+- !private ["SQ", "headers"]
+- !private ["SQ", "hop"]
+- !private ["SQ", "ifModifiedSince"]
+- !private ["SQ", "ifNoneMatch"]
+- !private ["SQ", "init"]
+- !private ["SQ", "internalServerError"]
+- !private ["SQ", "lastModified"]
+- !private ["SQ", "map"]
+- !private ["SQ", "notModified"]
+- !private ["SQ", "ok"]
+- !private ["SQ", "status"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "contentDecodeFailure"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "unexpctedResponseStatus"]
+- !private ["3NIO9EventLoopP", "makeFailedFuture"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "flatMapError"]
+- !private ["3NIO15EventLoopFutureC", "flatMapThrowing"]
+- !private ["3NIO15EventLoopFutureC", "hop"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "makeFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "add"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "cacheControl"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "expirationDate"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "firstValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "lastModified"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ifModifiedSince"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ifNoneMatch"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "ifModifiedSince"]
+- !private ["s32ExpressibleByStringInterpolationP", "ifNoneMatch"]
+- !private ["s26ExpressibleByStringLiteralP", "ifModifiedSince"]
+- !private ["s26ExpressibleByStringLiteralP", "ifNoneMatch"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ifModifiedSince"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ifNoneMatch"]
+- !private ["SF", "init"]
+- !private ["8NIOHTTP111HTTPHeadersV", "add"]
+- !private ["8NIOHTTP111HTTPHeadersV", "cacheControl"]
+- !private ["8NIOHTTP111HTTPHeadersV", "expirationDate"]
+- !private ["8NIOHTTP111HTTPHeadersV", "firstValue"]
+- !private ["8NIOHTTP111HTTPHeadersV", "lastModified"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "internalServerError"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "notModified"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "ok"]
+- !private ["SH", "addingTimeInterval"]
+- !private ["SH", "eTag"]
+- !private ["SH", "ifModifiedSince"]
+- !private ["SH", "ifNoneMatch"]
+- !private ["SH", "init"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE12LastModifiedV", "serialize"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "lock"]
+- !private ["21NIOConcurrencyHelpers4LockC", "unlock"]
+- !private ["7Logging6LoggerV", "debug"]
+- !private ["s25LosslessStringConvertibleP", "ifModifiedSince"]
+- !private ["s25LosslessStringConvertibleP", "ifNoneMatch"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "ifModifiedSince"]
+- !private ["s10MirrorPathP", "ifNoneMatch"]
+- !private ["5Vapor24MultipartPartConvertibleP", "ifModifiedSince"]
+- !private ["5Vapor24MultipartPartConvertibleP", "ifNoneMatch"]
+- !private ["5Vapor24MultipartPartConvertibleP", "init"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "eTag"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "ifModifiedSince"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "ifNoneMatch"]
+- !private ["Sj", "init"]
+- !private ["Sk", "add"]
+- !private ["Sk", "cacheControl"]
+- !private ["Sk", "expirationDate"]
+- !private ["Sk", "firstValue"]
+- !private ["Sk", "lastModified"]
+- !private ["Sm", "ifModifiedSince"]
+- !private ["Sm", "ifNoneMatch"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["5Vapor7RequestC", "client"]
+- !private ["5Vapor7RequestC", "eventLoop"]
+- !private ["5Vapor7RequestC", "logger"]
+- !private ["5Vapor16RequestDecodableP", "client"]
+- !private ["5Vapor16RequestDecodableP", "eventLoop"]
+- !private ["5Vapor16RequestDecodableP", "ifModifiedSince"]
+- !private ["5Vapor16RequestDecodableP", "ifNoneMatch"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "logger"]
+- !private ["5Vapor17ResponseEncodableP", "content"]
+- !private ["5Vapor17ResponseEncodableP", "flatMap"]
+- !private ["5Vapor17ResponseEncodableP", "flatMapError"]
+- !private ["5Vapor17ResponseEncodableP", "flatMapThrowing"]
+- !private ["5Vapor17ResponseEncodableP", "headers"]
+- !private ["5Vapor17ResponseEncodableP", "hop"]
+- !private ["5Vapor17ResponseEncodableP", "ifModifiedSince"]
+- !private ["5Vapor17ResponseEncodableP", "ifNoneMatch"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "internalServerError"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "notModified"]
+- !private ["5Vapor17ResponseEncodableP", "ok"]
+- !private ["5Vapor17ResponseEncodableP", "status"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "add"]
+- !private ["ST", "cacheControl"]
+- !private ["ST", "expirationDate"]
+- !private ["ST", "firstValue"]
+- !private ["ST", "ifModifiedSince"]
+- !private ["ST", "ifNoneMatch"]
+- !private ["ST", "lastModified"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "ifModifiedSince"]
+- !private ["SS", "ifNoneMatch"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "ifModifiedSince"]
+- !private ["Sy", "ifNoneMatch"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "ifModifiedSince"]
+- !private ["s16TextOutputStreamP", "ifNoneMatch"]
+- !private ["s20TextOutputStreamableP", "ifModifiedSince"]
+- !private ["s20TextOutputStreamableP", "ifNoneMatch"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["5Vapor3URIV", "deinit"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "ifModifiedSince"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "ifNoneMatch"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "ifModifiedSince"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "ifNoneMatch"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ifModifiedSince"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ifNoneMatch"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ifModifiedSince"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ifNoneMatch"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ifModifiedSince"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ifNoneMatch"]
+- !private ["s19_HasContiguousBytesP", "ifModifiedSince"]
+- !private ["s19_HasContiguousBytesP", "ifNoneMatch"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "ifModifiedSince"]
+- !private ["s21_ObjectiveCBridgeableP", "ifNoneMatch"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "5Vapor5AbortV"
+- !private "5Vapor10AbortErrorP"
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "8NIOHTTP111HTTPHeadersV5VaporE12CacheControlV"
+- !private "5Vapor6ClientP"
+- !private "5Vapor14ClientResponseV"
+- !private "5Vapor22CodingKeyRepresentableP"
+- !private "Sl"
+- !private "SL"
+- !private "5Vapor7ContentP"
+- !private "5Vapor16ContentContainerP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- "5Vapor13EndpointCacheC"
+- "5Vapor18EndpointCacheErrorO"
+- !private "SQ"
+- "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- !private "8NIOHTTP111HTTPHeadersV"
+- !private "8NIOHTTP118HTTPResponseStatusO"
+- !private "SH"
+- !private "8NIOHTTP111HTTPHeadersV5VaporE12LastModifiedV"
+- !private "10Foundation14LocalizedErrorP"
+- !private "21NIOConcurrencyHelpers4LockC"
+- !private "7Logging6LoggerV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "5Vapor24MultipartPartConvertibleP"
+- !private "8NIOHTTP111HTTPHeadersV5VaporE4NameV"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "5Vapor7RequestC"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "5Vapor3URIV"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8b0670ad7554b47be23da918f2dd88d7"

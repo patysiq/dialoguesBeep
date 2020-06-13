@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "6c4be7014ee2791d9b4acbe5bcd06ffe"
+build_time: [1592049823, 266797000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [1591876893, 450095882]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [1591876893, 405200242]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [1591876893, 450923387]

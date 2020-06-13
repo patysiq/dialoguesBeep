@@ -1,0 +1,74 @@
+{
+  "allExecutables" : [
+    "NIOWritePCAPDemo",
+    "Run",
+    "NIOSSLHTTP1Client",
+    "NIOHTTP2PerformanceTester",
+    "HTTPServerWithQuiescingDemo",
+    "NIOHTTP2Server",
+    "NIOTLSServer"
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "app",
+      "productName" : "appPackageTests",
+      "testBinary" : "\/Users\/patriciasampaio\/Desktop\/Estudos Academy\/API\/beepApi\/.build\/x86_64-apple-macosx\/debug\/appPackageTests.xctest\/Contents\/MacOS\/appPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+    "Run"
+  ],
+  "swiftTargetMap" : {
+    "C._NIO1APIShims-debug.module" : "_NIO1APIShims",
+    "C.App-debug.module" : "App",
+    "C.AppTests-debug.module" : "AppTests",
+    "C.AsyncHTTPClient-debug.module" : "AsyncHTTPClient",
+    "C.AsyncKit-debug.module" : "AsyncKit",
+    "C.Backtrace-debug.module" : "Backtrace",
+    "C.ConsoleKit-debug.module" : "ConsoleKit",
+    "C.COperatingSystem-debug.module" : "COperatingSystem",
+    "C.CoreMetrics-debug.module" : "CoreMetrics",
+    "C.Crypto-debug.module" : "Crypto",
+    "C.Fluent-debug.module" : "Fluent",
+    "C.FluentBenchmark-debug.module" : "FluentBenchmark",
+    "C.FluentKit-debug.module" : "FluentKit",
+    "C.FluentSQL-debug.module" : "FluentSQL",
+    "C.FluentSQLiteDriver-debug.module" : "FluentSQLiteDriver",
+    "C.HTTPServerWithQuiescingDemo-debug.module" : "HTTPServerWithQuiescingDemo",
+    "C.Logging-debug.module" : "Logging",
+    "C.Metrics-debug.module" : "Metrics",
+    "C.NIO-debug.module" : "NIO",
+    "C.NIOConcurrencyHelpers-debug.module" : "NIOConcurrencyHelpers",
+    "C.NIOExtras-debug.module" : "NIOExtras",
+    "C.NIOFoundationCompat-debug.module" : "NIOFoundationCompat",
+    "C.NIOHPACK-debug.module" : "NIOHPACK",
+    "C.NIOHTTP1-debug.module" : "NIOHTTP1",
+    "C.NIOHTTP2-debug.module" : "NIOHTTP2",
+    "C.NIOHTTP2PerformanceTester-debug.module" : "NIOHTTP2PerformanceTester",
+    "C.NIOHTTP2Server-debug.module" : "NIOHTTP2Server",
+    "C.NIOHTTPCompression-debug.module" : "NIOHTTPCompression",
+    "C.NIOSSL-debug.module" : "NIOSSL",
+    "C.NIOSSLHTTP1Client-debug.module" : "NIOSSLHTTP1Client",
+    "C.NIOTestUtils-debug.module" : "NIOTestUtils",
+    "C.NIOTLS-debug.module" : "NIOTLS",
+    "C.NIOTLSServer-debug.module" : "NIOTLSServer",
+    "C.NIOWebSocket-debug.module" : "NIOWebSocket",
+    "C.NIOWritePCAPDemo-debug.module" : "NIOWritePCAPDemo",
+    "C.RoutingKit-debug.module" : "RoutingKit",
+    "C.Run-debug.module" : "Run",
+    "C.SQLiteKit-debug.module" : "SQLiteKit",
+    "C.SQLiteNIO-debug.module" : "SQLiteNIO",
+    "C.SQLKit-debug.module" : "SQLKit",
+    "C.SQLKitBenchmark-debug.module" : "SQLKitBenchmark",
+    "C.Vapor-debug.module" : "Vapor",
+    "C.WebSocketKit-debug.module" : "WebSocketKit",
+    "C.XCTFluent-debug.module" : "XCTFluent",
+    "C.XCTVapor-debug.module" : "XCTVapor"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

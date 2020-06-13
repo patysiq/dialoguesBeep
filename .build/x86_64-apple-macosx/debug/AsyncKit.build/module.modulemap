@@ -1,0 +1,4 @@
+module AsyncKit {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/AsyncKit-Swift.h"
+    requires objc
+}

@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "023020bbc645c7429c56d613e6a55edc"
+build_time: [1592049823, 235852000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/routing-kit/Sources/RoutingKit/Deprecated.swift": [1591876888, 470861605]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift": [1591876888, 471155965]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift": [1591876888, 471501405]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift": [1591876888, 430494439]
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift": [1591876888, 471957387]

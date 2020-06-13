@@ -1,0 +1,680 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Session"
+- "CreateSession"
+provides-nominal:
+- "5Vapor11ApplicationC6FluentEADV8SessionsV"
+- "6Fluent7SessionC"
+- "6Fluent13CreateSessionV"
+provides-member:
+- ["5Vapor11ApplicationC6FluentEADV", ""]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", ""]
+- ["5Vapor11ApplicationC8SessionsV8ProviderV", ""]
+- ["6Fluent7SessionC", ""]
+- ["6Fluent13CreateSessionV", ""]
+- ["5Vapor11ApplicationC6FluentEADV", "sessions"]
+- ["5Vapor11ApplicationC6FluentEADV", "Sessions"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "middleware"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "driver"]
+- ["5Vapor11ApplicationC8SessionsV8ProviderV", "fluent"]
+- ["5Vapor11ApplicationC8SessionsV8ProviderV", "fluent"]
+provides-dynamic-lookup:
+- "$data"
+- "$id"
+- "$key"
+- "_data"
+- "_id"
+- "_key"
+- "data"
+- "id"
+- "key"
+- "schema"
+depends-top-level:
+- !private "..<"
+- !private "=="
+- "Application"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CreateSession"
+- !private "Data"
+- "Database"
+- "DatabaseID"
+- !private "DatabaseSessionAuthenticator"
+- !private "DatabaseSessions"
+- "EventLoopFuture"
+- "Field"
+- !private "FloatLiteralType"
+- "ID"
+- !private "IntegerLiteralType"
+- "Middleware"
+- "Migration"
+- "Model"
+- "Request"
+- "Self"
+- "Session"
+- "SessionAuthenticatable"
+- "SessionAuthenticator"
+- "SessionData"
+- "SessionDriver"
+- "SessionID"
+- "StringLiteralType"
+- "UUID"
+- "Void"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "max"]
+- !private ["s18AdditiveArithmeticP", "min"]
+- !private ["s18AdditiveArithmeticP", "random"]
+- ["9FluentKit8AnyFieldP", "init"]
+- ["9FluentKit8AnyFieldP", "wrappedValue"]
+- ["9FluentKit5AnyIDP", "init"]
+- ["9FluentKit5AnyIDP", "wrappedValue"]
+- !private ["9FluentKit8AnyModelP", "$data"]
+- !private ["9FluentKit8AnyModelP", "$key"]
+- ["9FluentKit8AnyModelP", "Field"]
+- ["9FluentKit8AnyModelP", "ID"]
+- ["9FluentKit8AnyModelP", "IDValue"]
+- ["9FluentKit8AnyModelP", ""]
+- ["9FluentKit8AnyModelP", "_Default_IDValue"]
+- ["9FluentKit8AnyModelP", "alias"]
+- !private ["9FluentKit8AnyModelP", "create"]
+- !private ["9FluentKit8AnyModelP", "data"]
+- ["9FluentKit8AnyModelP", "description"]
+- ["9FluentKit8AnyModelP", "encode"]
+- !private ["9FluentKit8AnyModelP", "find"]
+- ["9FluentKit8AnyModelP", "id"]
+- ["9FluentKit8AnyModelP", "init"]
+- !private ["9FluentKit8AnyModelP", "key"]
+- ["9FluentKit8AnyModelP", "properties"]
+- !private ["9FluentKit8AnyModelP", "query"]
+- ["9FluentKit8AnyModelP", "schema"]
+- ["9FluentKit11AnyPropertyP", "init"]
+- ["9FluentKit11AnyPropertyP", "wrappedValue"]
+- ["5Vapor11ApplicationC", "Fluent"]
+- ["5Vapor11ApplicationC", "Sessions"]
+- !private ["5Vapor11ApplicationC", "fluent"]
+- !private ["5Vapor11ApplicationC", "sessions"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "max"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "min"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "random"]
+- !private ["5Vapor15AuthenticatableP", "find"]
+- ["5Vapor13AuthenticatorP", "User"]
+- !private ["5Vapor13AuthenticatorP", ""]
+- ["5Vapor13AuthenticatorP", "_Default_User"]
+- !private ["5Vapor13AuthenticatorP", "init"]
+- !private ["5Vapor13AuthenticatorP", "middleware"]
+- ["5Vapor13AuthenticatorP", "resolve"]
+- !private ["SK", "append"]
+- !private ["SK", "base64EncodedString"]
+- !private ["SK", "init"]
+- !private ["SK", "random"]
+- !private ["Sz", "max"]
+- !private ["Sz", "min"]
+- !private ["Sz", "random"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "min"]
+- !private ["s7CVarArgP", "random"]
+- !private ["Sl", "append"]
+- !private ["Sl", "base64EncodedString"]
+- !private ["Sl", "init"]
+- !private ["Sl", "random"]
+- !private ["SL", "max"]
+- !private ["SL", "min"]
+- !private ["SL", "random"]
+- !private ["5Vapor7ContentP", "max"]
+- !private ["5Vapor7ContentP", "min"]
+- !private ["5Vapor7ContentP", "random"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "base64EncodedString"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "random"]
+- ["6Fluent13CreateSessionV", "Database"]
+- ["6Fluent13CreateSessionV", "EventLoopFuture"]
+- ["6Fluent13CreateSessionV", "Void"]
+- ["6Fluent13CreateSessionV", "deinit"]
+- ["6Fluent13CreateSessionV", "init"]
+- ["6Fluent13CreateSessionV", "name"]
+- ["6Fluent13CreateSessionV", "prepare"]
+- ["6Fluent13CreateSessionV", "revert"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "base64EncodedString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "random"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "base64EncodedString"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "min"]
+- !private ["s17CustomReflectableP", "random"]
+- !private ["s23CustomStringConvertibleP", "$data"]
+- !private ["s23CustomStringConvertibleP", "$key"]
+- ["s23CustomStringConvertibleP", "Field"]
+- ["s23CustomStringConvertibleP", "ID"]
+- ["s23CustomStringConvertibleP", "IDValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_IDValue"]
+- ["s23CustomStringConvertibleP", "alias"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "base64EncodedString"]
+- !private ["s23CustomStringConvertibleP", "create"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "db"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "find"]
+- ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- ["s23CustomStringConvertibleP", "properties"]
+- !private ["s23CustomStringConvertibleP", "query"]
+- !private ["s23CustomStringConvertibleP", "random"]
+- ["s23CustomStringConvertibleP", "schema"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "base64EncodedString"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "random"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "base64EncodedString"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "random"]
+- !private ["9FluentKit14DatabaseSchemaV8DataTypeO", "json"]
+- !private ["9FluentKit14DatabaseSchemaV8DataTypeO", "string"]
+- !private ["9FluentKit14DatabaseSchemaV8DataTypeO", "uuid"]
+- !private ["9FluentKit8DatabaseP", "callAsFunction"]
+- !private ["9FluentKit8DatabaseP", "schema"]
+- !private ["Se", "$data"]
+- !private ["Se", "$key"]
+- ["Se", "Field"]
+- ["Se", "ID"]
+- ["Se", "IDValue"]
+- ["Se", ""]
+- ["Se", "_Default_IDValue"]
+- ["Se", "alias"]
+- !private ["Se", "append"]
+- !private ["Se", "base64EncodedString"]
+- !private ["Se", "create"]
+- !private ["Se", "data"]
+- ["Se", "description"]
+- ["Se", "encode"]
+- !private ["Se", "find"]
+- ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "key"]
+- !private ["Se", "max"]
+- !private ["Se", "min"]
+- ["Se", "properties"]
+- !private ["Se", "query"]
+- !private ["Se", "random"]
+- ["Se", "schema"]
+- !private ["9FluentKit16EagerLoadBuilderP", "delete"]
+- !private ["9FluentKit16EagerLoadBuilderP", "filter"]
+- !private ["9FluentKit16EagerLoadBuilderP", "first"]
+- !private ["9FluentKit16EagerLoadBuilderP", "set"]
+- !private ["9FluentKit16EagerLoadBuilderP", "update"]
+- !private ["SE", "$data"]
+- !private ["SE", "$key"]
+- ["SE", "Field"]
+- ["SE", "ID"]
+- ["SE", "IDValue"]
+- ["SE", ""]
+- ["SE", "_Default_IDValue"]
+- ["SE", "alias"]
+- !private ["SE", "append"]
+- !private ["SE", "base64EncodedString"]
+- !private ["SE", "create"]
+- !private ["SE", "data"]
+- ["SE", "description"]
+- ["SE", "encode"]
+- !private ["SE", "find"]
+- ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "key"]
+- !private ["SE", "max"]
+- !private ["SE", "min"]
+- ["SE", "properties"]
+- !private ["SE", "query"]
+- !private ["SE", "random"]
+- ["SE", "schema"]
+- !private ["SQ", "append"]
+- !private ["SQ", "base64EncodedString"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "max"]
+- !private ["SQ", "min"]
+- !private ["SQ", "random"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s27ExpressibleByIntegerLiteralP", "min"]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
+- !private ["9FluentKit14DatabaseSchemaV15FieldConstraintO", "identifier"]
+- !private ["9FluentKit14DatabaseSchemaV15FieldConstraintO", "required"]
+- ["9FluentKit13FieldPropertyC", "init"]
+- ["9FluentKit13FieldPropertyC", "wrappedValue"]
+- ["9FluentKit13FieldProtocolP", "init"]
+- ["9FluentKit13FieldProtocolP", "wrappedValue"]
+- !private ["9FluentKit6FieldsP", "$data"]
+- !private ["9FluentKit6FieldsP", "$key"]
+- ["9FluentKit6FieldsP", "Field"]
+- ["9FluentKit6FieldsP", "ID"]
+- ["9FluentKit6FieldsP", "IDValue"]
+- ["9FluentKit6FieldsP", ""]
+- ["9FluentKit6FieldsP", "_Default_IDValue"]
+- ["9FluentKit6FieldsP", "alias"]
+- !private ["9FluentKit6FieldsP", "create"]
+- !private ["9FluentKit6FieldsP", "data"]
+- ["9FluentKit6FieldsP", "description"]
+- ["9FluentKit6FieldsP", "encode"]
+- !private ["9FluentKit6FieldsP", "find"]
+- ["9FluentKit6FieldsP", "id"]
+- ["9FluentKit6FieldsP", "init"]
+- !private ["9FluentKit6FieldsP", "key"]
+- ["9FluentKit6FieldsP", "properties"]
+- !private ["9FluentKit6FieldsP", "query"]
+- ["9FluentKit6FieldsP", "schema"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["s17FixedWidthIntegerP", "min"]
+- !private ["s17FixedWidthIntegerP", "random"]
+- ["5Vapor11ApplicationC6FluentEADV", "Application"]
+- ["5Vapor11ApplicationC6FluentEADV", "Sessions"]
+- ["5Vapor11ApplicationC6FluentEADV", "sessions"]
+- !private ["SH", "append"]
+- !private ["SH", "base64EncodedString"]
+- !private ["SH", "init"]
+- !private ["SH", "max"]
+- !private ["SH", "min"]
+- !private ["SH", "random"]
+- ["9FluentKit10IDPropertyC", "init"]
+- ["9FluentKit10IDPropertyC", "wrappedValue"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s25LosslessStringConvertibleP", "min"]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- ["9FluentKit9MigrationP", ""]
+- ["9FluentKit9MigrationP", "name"]
+- ["9FluentKit9MigrationP", "prepare"]
+- ["9FluentKit9MigrationP", "revert"]
+- !private ["9FluentKit5ModelP", "$data"]
+- !private ["9FluentKit5ModelP", "$key"]
+- ["9FluentKit5ModelP", "Field"]
+- ["9FluentKit5ModelP", "ID"]
+- ["9FluentKit5ModelP", "IDValue"]
+- ["9FluentKit5ModelP", ""]
+- ["9FluentKit5ModelP", "_Default_IDValue"]
+- ["9FluentKit5ModelP", "alias"]
+- !private ["9FluentKit5ModelP", "create"]
+- !private ["9FluentKit5ModelP", "data"]
+- ["9FluentKit5ModelP", "description"]
+- ["9FluentKit5ModelP", "encode"]
+- !private ["9FluentKit5ModelP", "find"]
+- ["9FluentKit5ModelP", "id"]
+- ["9FluentKit5ModelP", "init"]
+- !private ["9FluentKit5ModelP", "key"]
+- ["9FluentKit5ModelP", "properties"]
+- !private ["9FluentKit5ModelP", "query"]
+- ["9FluentKit5ModelP", "schema"]
+- !private ["5Vapor24MultipartPartConvertibleP", "append"]
+- !private ["5Vapor24MultipartPartConvertibleP", "base64EncodedString"]
+- !private ["5Vapor24MultipartPartConvertibleP", "init"]
+- !private ["5Vapor24MultipartPartConvertibleP", "max"]
+- !private ["5Vapor24MultipartPartConvertibleP", "min"]
+- !private ["5Vapor24MultipartPartConvertibleP", "random"]
+- !private ["SM", "append"]
+- !private ["SM", "base64EncodedString"]
+- !private ["SM", "init"]
+- !private ["SM", "random"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "base64EncodedString"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "random"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "max"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "min"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "random"]
+- !private ["Sj", "max"]
+- !private ["Sj", "min"]
+- !private ["Sj", "random"]
+- ["9FluentKit16PropertyProtocolP", "init"]
+- ["9FluentKit16PropertyProtocolP", "wrappedValue"]
+- ["5Vapor11ApplicationC8SessionsV8ProviderV", "DatabaseID"]
+- ["5Vapor11ApplicationC8SessionsV8ProviderV", "Self"]
+- !private ["5Vapor11ApplicationC8SessionsV8ProviderV", "callAsFunction"]
+- ["5Vapor11ApplicationC8SessionsV8ProviderV", "fluent"]
+- !private ["5Vapor11ApplicationC8SessionsV8ProviderV", "init"]
+- !private ["9FluentKit12QueryBuilderC", "delete"]
+- !private ["9FluentKit12QueryBuilderC", "filter"]
+- !private ["9FluentKit12QueryBuilderC", "first"]
+- !private ["9FluentKit12QueryBuilderC", "set"]
+- !private ["9FluentKit12QueryBuilderC", "update"]
+- !private ["Sk", "append"]
+- !private ["Sk", "base64EncodedString"]
+- !private ["Sk", "init"]
+- !private ["Sk", "random"]
+- !private ["Sm", "append"]
+- !private ["Sm", "base64EncodedString"]
+- !private ["Sm", "init"]
+- !private ["Sm", "random"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "base64EncodedString"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "random"]
+- !private ["5Vapor7RequestC", "db"]
+- !private ["5Vapor16RequestDecodableP", "db"]
+- !private ["5Vapor16RequestDecodableP", "max"]
+- !private ["5Vapor16RequestDecodableP", "min"]
+- !private ["5Vapor16RequestDecodableP", "random"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "max"]
+- !private ["5Vapor17ResponseEncodableP", "min"]
+- !private ["5Vapor17ResponseEncodableP", "random"]
+- ["5Vapor13RoutesBuilderP", "Fluent"]
+- !private ["5Vapor13RoutesBuilderP", "fluent"]
+- !private ["5Vapor13RoutesBuilderP", "sessions"]
+- !private ["s10SIMDScalarP", "max"]
+- !private ["s10SIMDScalarP", "min"]
+- !private ["s10SIMDScalarP", "random"]
+- !private ["9FluentKit6SchemaP", "$data"]
+- !private ["9FluentKit6SchemaP", "$key"]
+- ["9FluentKit6SchemaP", "Field"]
+- ["9FluentKit6SchemaP", "ID"]
+- ["9FluentKit6SchemaP", "IDValue"]
+- ["9FluentKit6SchemaP", ""]
+- ["9FluentKit6SchemaP", "_Default_IDValue"]
+- ["9FluentKit6SchemaP", "alias"]
+- !private ["9FluentKit6SchemaP", "create"]
+- !private ["9FluentKit6SchemaP", "data"]
+- ["9FluentKit6SchemaP", "description"]
+- ["9FluentKit6SchemaP", "encode"]
+- !private ["9FluentKit6SchemaP", "find"]
+- ["9FluentKit6SchemaP", "id"]
+- ["9FluentKit6SchemaP", "init"]
+- !private ["9FluentKit6SchemaP", "key"]
+- ["9FluentKit6SchemaP", "properties"]
+- !private ["9FluentKit6SchemaP", "query"]
+- ["9FluentKit6SchemaP", "schema"]
+- !private ["9FluentKit13SchemaBuilderC", "create"]
+- !private ["9FluentKit13SchemaBuilderC", "delete"]
+- !private ["9FluentKit13SchemaBuilderC", "field"]
+- !private ["ST", "append"]
+- !private ["ST", "base64EncodedString"]
+- !private ["ST", "init"]
+- !private ["ST", "random"]
+- ["6Fluent7SessionC", "$data"]
+- ["6Fluent7SessionC", "$id"]
+- ["6Fluent7SessionC", "$key"]
+- ["6Fluent7SessionC", "Field"]
+- ["6Fluent7SessionC", "ID"]
+- ["6Fluent7SessionC", "IDValue"]
+- ["6Fluent7SessionC", "SessionData"]
+- ["6Fluent7SessionC", "SessionID"]
+- ["6Fluent7SessionC", "UUID"]
+- ["6Fluent7SessionC", "_Default_IDValue"]
+- !private ["6Fluent7SessionC", "_data"]
+- !private ["6Fluent7SessionC", "_id"]
+- !private ["6Fluent7SessionC", "_key"]
+- ["6Fluent7SessionC", "alias"]
+- !private ["6Fluent7SessionC", "create"]
+- ["6Fluent7SessionC", "data"]
+- ["6Fluent7SessionC", "deinit"]
+- ["6Fluent7SessionC", "description"]
+- ["6Fluent7SessionC", "encode"]
+- ["6Fluent7SessionC", "id"]
+- ["6Fluent7SessionC", "init"]
+- ["6Fluent7SessionC", "key"]
+- ["6Fluent7SessionC", "properties"]
+- !private ["6Fluent7SessionC", "query"]
+- ["6Fluent7SessionC", "schema"]
+- !private ["5Vapor22SessionAuthenticatableP", "find"]
+- ["5Vapor20SessionAuthenticatorP", "User"]
+- !private ["5Vapor20SessionAuthenticatorP", ""]
+- ["5Vapor20SessionAuthenticatorP", "_Default_User"]
+- !private ["5Vapor20SessionAuthenticatorP", "init"]
+- !private ["5Vapor20SessionAuthenticatorP", "middleware"]
+- ["5Vapor20SessionAuthenticatorP", "resolve"]
+- !private ["5Vapor13SessionDriverP", "Data"]
+- !private ["5Vapor13SessionDriverP", "Session"]
+- !private ["5Vapor13SessionDriverP", ""]
+- ["5Vapor13SessionDriverP", "createSession"]
+- !private ["5Vapor13SessionDriverP", "databaseID"]
+- ["5Vapor13SessionDriverP", "deleteSession"]
+- !private ["5Vapor13SessionDriverP", "generateID"]
+- !private ["5Vapor13SessionDriverP", "init"]
+- ["5Vapor13SessionDriverP", "readSession"]
+- ["5Vapor13SessionDriverP", "updateSession"]
+- !private ["5Vapor9SessionIDV", "init"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "Application"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "DatabaseID"]
+- !private ["5Vapor11ApplicationC6FluentEADV8SessionsV", "DatabaseSessionAuthenticator"]
+- !private ["5Vapor11ApplicationC6FluentEADV8SessionsV", "DatabaseSessions"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "Middleware"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "Model"]
+- ["5Vapor11ApplicationC8SessionsV", "Provider"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "SessionAuthenticatable"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "SessionDriver"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "driver"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "fluent"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "init"]
+- ["5Vapor11ApplicationC6FluentEADV8SessionsV", "middleware"]
+- !private ["5Vapor11ApplicationC8SessionsV", "use"]
+- !private ["Sx", "max"]
+- !private ["Sx", "min"]
+- !private ["Sx", "random"]
+- !private ["s5UInt8V", "max"]
+- !private ["s5UInt8V", "min"]
+- !private ["s5UInt8V", "random"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "max"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "min"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "random"]
+- !private ["SR", "random"]
+- !private ["SU", "max"]
+- !private ["SU", "min"]
+- !private ["SU", "random"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "max"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "min"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "min"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- !private ["s19_HasContiguousBytesP", "random"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "min"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "base64EncodedString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "min"]
+- !private ["s21_ObjectiveCBridgeableP", "random"]
+- !private ["s14_StringElementP", "max"]
+- !private ["s14_StringElementP", "min"]
+- !private ["s14_StringElementP", "random"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "9FluentKit8AnyFieldP"
+- "9FluentKit5AnyIDP"
+- "9FluentKit8AnyModelP"
+- "9FluentKit11AnyPropertyP"
+- "5Vapor11ApplicationC"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "5Vapor15AuthenticatableP"
+- "5Vapor13AuthenticatorP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- "6Fluent13CreateSessionV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "9FluentKit14DatabaseSchemaV8DataTypeO"
+- !private "9FluentKit8DatabaseP"
+- "Se"
+- !private "9FluentKit16EagerLoadBuilderP"
+- "SE"
+- !private "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "9FluentKit14DatabaseSchemaV15FieldConstraintO"
+- "9FluentKit13FieldPropertyC"
+- "9FluentKit13FieldProtocolP"
+- "9FluentKit6FieldsP"
+- !private "s17FixedWidthIntegerP"
+- "5Vapor11ApplicationC6FluentEADV"
+- !private "SH"
+- "9FluentKit10IDPropertyC"
+- !private "s25LosslessStringConvertibleP"
+- "9FluentKit9MigrationP"
+- "9FluentKit5ModelP"
+- !private "5Vapor24MultipartPartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "Sj"
+- "9FluentKit16PropertyProtocolP"
+- "5Vapor11ApplicationC8SessionsV8ProviderV"
+- !private "9FluentKit12QueryBuilderC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "5Vapor7RequestC"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- "5Vapor13RoutesBuilderP"
+- !private "s10SIMDScalarP"
+- "9FluentKit6SchemaP"
+- !private "9FluentKit13SchemaBuilderC"
+- !private "ST"
+- "6Fluent7SessionC"
+- !private "5Vapor22SessionAuthenticatableP"
+- "5Vapor20SessionAuthenticatorP"
+- "5Vapor13SessionDriverP"
+- !private "5Vapor9SessionIDV"
+- "5Vapor11ApplicationC6FluentEADV8SessionsV"
+- "5Vapor11ApplicationC8SessionsV"
+- "5Vapor11ApplicationC6FluentEADV8SessionsV"
+- !private "5Vapor11ApplicationC8SessionsV"
+- !private "Sx"
+- !private "s5UInt8V"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- !private "SR"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7b5ce48453963da79545f2a818bc67bf"

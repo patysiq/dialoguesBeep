@@ -1,0 +1,4 @@
+module FluentBenchmark {
+    header "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/FluentBenchmark-Swift.h"
+    requires objc
+}

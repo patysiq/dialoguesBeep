@@ -1,0 +1,566 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_FluentSQLiteDatabase"
+- "AutoincrementIDInitializable"
+provides-nominal:
+- "18FluentSQLiteDriver01_aB8DatabaseV"
+- "18FluentSQLiteDriver28AutoincrementIDInitializableP"
+- "Si"
+- "Su"
+- "s5Int64V"
+- "s6UInt64V"
+provides-member:
+- ["18FluentSQLiteDriver01_aB8DatabaseV", ""]
+- ["18FluentSQLiteDriver28AutoincrementIDInitializableP", ""]
+- ["Si", ""]
+- ["Su", ""]
+- ["s5Int64V", ""]
+- ["s6UInt64V", ""]
+- ["18FluentSQLiteDriver28AutoincrementIDInitializableP", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "AutoincrementIDInitializable"
+- "Bool"
+- "CastingPrecedence"
+- "Database"
+- "DatabaseContext"
+- "DatabaseEnum"
+- "DatabaseOutput"
+- "DatabaseQuery"
+- "DatabaseSchema"
+- "Decodable"
+- "EventLoopFuture"
+- "FieldKey"
+- "FixedWidthInteger"
+- "FloatLiteralType"
+- "Int"
+- "Int64"
+- "IntegerLiteralType"
+- !private "LastInsertRow"
+- "Logger"
+- "SQLDatabase"
+- "SQLDialect"
+- "SQLExpression"
+- !private "SQLQueryConverter"
+- "SQLRow"
+- !private "SQLSchemaConverter"
+- "SQLiteConnection"
+- !private "SQLiteConverterDelegate"
+- "SQLiteData"
+- !private "SQLiteDataEncoder"
+- "SQLiteDatabase"
+- !private "SQLiteDialect"
+- "SQLiteRow"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt64"
+- !private "UnicodeScalarType"
+- "Void"
+- "_FluentSQLiteDatabase"
+- !private "fatalError"
+- !private "numericCast"
+- !private "||"
+depends-member:
+- !private ["9FluentKit13DatabaseQueryV6ActionO", "create"]
+- ["9FluentKit14DatabaseSchemaV6ActionO", "update"]
+- ["s18AdditiveArithmeticP", "FixedWidthInteger"]
+- ["s18AdditiveArithmeticP", "Int"]
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "numericCast"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["18FluentSQLiteDriver28AutoincrementIDInitializableP", "FixedWidthInteger"]
+- ["18FluentSQLiteDriver28AutoincrementIDInitializableP", "Int"]
+- ["18FluentSQLiteDriver28AutoincrementIDInitializableP", ""]
+- ["18FluentSQLiteDriver28AutoincrementIDInitializableP", "init"]
+- !private ["18FluentSQLiteDriver28AutoincrementIDInitializableP", "numericCast"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- ["Sz", "FixedWidthInteger"]
+- ["Sz", "Int"]
+- ["Sz", "init"]
+- !private ["Sz", "numericCast"]
+- !private ["s7CVarArgP", "description"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "description"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["SL", "FixedWidthInteger"]
+- ["SL", "Int"]
+- ["SL", "init"]
+- !private ["SL", "numericCast"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "lastAutoincrementID"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "logging"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "query"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "FixedWidthInteger"]
+- ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "create"]
+- !private ["s23CustomStringConvertibleP", "customIDKey"]
+- ["s23CustomStringConvertibleP", "decode"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lastAutoincrementID"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "numericCast"]
+- ["s23CustomStringConvertibleP", "schema"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["9FluentKit8DatabaseP", "LastInsertRow"]
+- !private ["9FluentKit8DatabaseP", "SQLQueryConverter"]
+- !private ["9FluentKit8DatabaseP", "SQLSchemaConverter"]
+- !private ["9FluentKit8DatabaseP", "SQLiteConverterDelegate"]
+- !private ["9FluentKit8DatabaseP", "SQLiteDataEncoder"]
+- !private ["9FluentKit8DatabaseP", "SQLiteDialect"]
+- ["9FluentKit8DatabaseP", ""]
+- !private ["9FluentKit8DatabaseP", "_FluentSQLiteDatabase"]
+- ["9FluentKit8DatabaseP", "context"]
+- !private ["9FluentKit8DatabaseP", "database"]
+- ["9FluentKit8DatabaseP", "dialect"]
+- ["9FluentKit8DatabaseP", "eventLoop"]
+- ["9FluentKit8DatabaseP", "execute"]
+- !private ["9FluentKit8DatabaseP", "fatalError"]
+- !private ["9FluentKit8DatabaseP", "init"]
+- ["9FluentKit8DatabaseP", "logger"]
+- !private ["9FluentKit8DatabaseP", "logging"]
+- ["9FluentKit8DatabaseP", "query"]
+- !private ["9FluentKit8DatabaseP", "serialize"]
+- ["9FluentKit8DatabaseP", "transaction"]
+- ["9FluentKit8DatabaseP", "withConnection"]
+- !private ["9FluentKit14DatabaseOutputP", ""]
+- ["9FluentKit14DatabaseOutputP", "contains"]
+- !private ["9FluentKit14DatabaseOutputP", "customIDKey"]
+- ["9FluentKit14DatabaseOutputP", "decode"]
+- ["9FluentKit14DatabaseOutputP", "description"]
+- !private ["9FluentKit14DatabaseOutputP", "fatalError"]
+- !private ["9FluentKit14DatabaseOutputP", "init"]
+- !private ["9FluentKit14DatabaseOutputP", "lastAutoincrementID"]
+- ["9FluentKit14DatabaseOutputP", "schema"]
+- !private ["9FluentKit13DatabaseQueryV", "action"]
+- !private ["9FluentKit13DatabaseQueryV", "customIDKey"]
+- !private ["9FluentKit14DatabaseSchemaV", "action"]
+- !private ["9FluentKit14DatabaseSchemaV", "createFields"]
+- !private ["Se", "description"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "description"]
+- !private ["SE", "description"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- ["SQ", "FixedWidthInteger"]
+- ["SQ", "Int"]
+- !private ["SQ", "description"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapError"]
+- !private ["SQ", "flatMapThrowing"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "map"]
+- !private ["SQ", "numericCast"]
+- !private ["SQ", "subscript"]
+- ["SQ", "update"]
+- !private ["3NIO9EventLoopP", "makeFailedFuture"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "flatMapError"]
+- !private ["3NIO15EventLoopFutureC", "flatMapThrowing"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "makeFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "description"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "id"]
+- ["s27ExpressibleByIntegerLiteralP", "FixedWidthInteger"]
+- ["s27ExpressibleByIntegerLiteralP", "Int"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "numericCast"]
+- !private ["s26ExpressibleByStringLiteralP", "id"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "id"]
+- !private ["9FluentKit8FieldKeyO", "id"]
+- ["s17FixedWidthIntegerP", "FixedWidthInteger"]
+- ["s17FixedWidthIntegerP", "Int"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "numericCast"]
+- ["SH", "FixedWidthInteger"]
+- ["SH", "Int"]
+- !private ["SH", "description"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "numericCast"]
+- !private ["SH", "subscript"]
+- ["SH", "update"]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "init"]
+- ["s25LosslessStringConvertibleP", "FixedWidthInteger"]
+- ["s25LosslessStringConvertibleP", "Int"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "numericCast"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- ["Sj", "FixedWidthInteger"]
+- ["Sj", "Int"]
+- ["Sj", "init"]
+- !private ["Sj", "numericCast"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- ["s10SIMDScalarP", "init"]
+- !private ["9FluentSQL20SQLConverterDelegateP", "init"]
+- !private ["6SQLKit11SQLDatabaseP", "LastInsertRow"]
+- !private ["6SQLKit11SQLDatabaseP", "SQLQueryConverter"]
+- !private ["6SQLKit11SQLDatabaseP", "SQLSchemaConverter"]
+- !private ["6SQLKit11SQLDatabaseP", "SQLiteConverterDelegate"]
+- !private ["6SQLKit11SQLDatabaseP", "SQLiteDataEncoder"]
+- !private ["6SQLKit11SQLDatabaseP", "SQLiteDialect"]
+- ["6SQLKit11SQLDatabaseP", ""]
+- !private ["6SQLKit11SQLDatabaseP", "_FluentSQLiteDatabase"]
+- ["6SQLKit11SQLDatabaseP", "context"]
+- !private ["6SQLKit11SQLDatabaseP", "database"]
+- ["6SQLKit11SQLDatabaseP", "dialect"]
+- ["6SQLKit11SQLDatabaseP", "eventLoop"]
+- ["6SQLKit11SQLDatabaseP", "execute"]
+- !private ["6SQLKit11SQLDatabaseP", "fatalError"]
+- !private ["6SQLKit11SQLDatabaseP", "init"]
+- ["6SQLKit11SQLDatabaseP", "logger"]
+- !private ["6SQLKit11SQLDatabaseP", "logging"]
+- ["6SQLKit11SQLDatabaseP", "query"]
+- !private ["6SQLKit11SQLDatabaseP", "serialize"]
+- ["6SQLKit11SQLDatabaseP", "transaction"]
+- ["6SQLKit11SQLDatabaseP", "withConnection"]
+- !private ["6SQLKit10SQLDialectP", "init"]
+- !private ["9FluentSQL17SQLQueryConverterV", "convert"]
+- !private ["9FluentSQL17SQLQueryConverterV", "init"]
+- !private ["9FluentSQL18SQLSchemaConverterV", "convert"]
+- !private ["9FluentSQL18SQLSchemaConverterV", "init"]
+- !private ["9SQLiteNIO0A10ConnectionC", "lastAutoincrementID"]
+- !private ["9SQLiteNIO0A10ConnectionC", "logging"]
+- !private ["9SQLiteNIO0A10ConnectionC", "query"]
+- !private ["18FluentSQLiteDriver0B17ConverterDelegateV", "deinit"]
+- !private ["18FluentSQLiteDriver0B17ConverterDelegateV", "init"]
+- ["9SQLiteNIO0A15DataConvertibleP", "init"]
+- !private ["9SQLiteKit0A11DataEncoderV", "encode"]
+- !private ["9SQLiteKit0A11DataEncoderV", "init"]
+- !private ["9SQLiteNIO0A8DatabaseP", "LastInsertRow"]
+- !private ["9SQLiteNIO0A8DatabaseP", "SQLQueryConverter"]
+- !private ["9SQLiteNIO0A8DatabaseP", "SQLSchemaConverter"]
+- !private ["9SQLiteNIO0A8DatabaseP", "SQLiteConverterDelegate"]
+- !private ["9SQLiteNIO0A8DatabaseP", "SQLiteDataEncoder"]
+- !private ["9SQLiteNIO0A8DatabaseP", "SQLiteDialect"]
+- ["9SQLiteNIO0A8DatabaseP", ""]
+- !private ["9SQLiteNIO0A8DatabaseP", "_FluentSQLiteDatabase"]
+- ["9SQLiteNIO0A8DatabaseP", "context"]
+- !private ["9SQLiteNIO0A8DatabaseP", "database"]
+- ["9SQLiteNIO0A8DatabaseP", "dialect"]
+- ["9SQLiteNIO0A8DatabaseP", "eventLoop"]
+- ["9SQLiteNIO0A8DatabaseP", "execute"]
+- !private ["9SQLiteNIO0A8DatabaseP", "fatalError"]
+- !private ["9SQLiteNIO0A8DatabaseP", "init"]
+- !private ["9SQLiteNIO0A8DatabaseP", "lastAutoincrementID"]
+- ["9SQLiteNIO0A8DatabaseP", "logger"]
+- !private ["9SQLiteNIO0A8DatabaseP", "logging"]
+- ["9SQLiteNIO0A8DatabaseP", "query"]
+- !private ["9SQLiteNIO0A8DatabaseP", "serialize"]
+- !private ["9SQLiteNIO0A8DatabaseP", "sql"]
+- ["9SQLiteNIO0A8DatabaseP", "transaction"]
+- ["9SQLiteNIO0A8DatabaseP", "withConnection"]
+- !private ["9SQLiteKit0A7DialectV", "init"]
+- !private ["9SQLiteNIO0A3RowV", "deinit"]
+- !private ["ST", "description"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "FixedWidthInteger"]
+- ["Sx", "Int"]
+- ["Sx", "init"]
+- !private ["Sx", "numericCast"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["Su", "deinit"]
+- ["Su", "init"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "init"]
+- ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "Database"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "DatabaseContext"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "DatabaseEnum"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "DatabaseOutput"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "DatabaseQuery"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "DatabaseSchema"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "EventLoopFuture"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "LastInsertRow"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "Logger"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLDialect"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLExpression"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLQueryConverter"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLRow"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLSchemaConverter"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLiteConnection"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLiteConverterDelegate"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLiteData"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLiteDataEncoder"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLiteDatabase"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLiteDialect"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "SQLiteRow"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "String"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "Void"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "_FluentSQLiteDatabase"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "context"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "database"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "deinit"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "dialect"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "eventLoop"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "execute"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "fatalError"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "init"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "logger"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "logging"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "query"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "serialize"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "transaction"]
+- ["18FluentSQLiteDriver01_aB8DatabaseV", "withConnection"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "9FluentKit13DatabaseQueryV6ActionO"
+- "9FluentKit14DatabaseSchemaV6ActionO"
+- "s18AdditiveArithmeticP"
+- !private "Sa"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "18FluentSQLiteDriver28AutoincrementIDInitializableP"
+- !private "SK"
+- "Sz"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "8AsyncKit18ConnectionPoolItemP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "9FluentKit8DatabaseP"
+- "9FluentKit14DatabaseOutputP"
+- !private "9FluentKit13DatabaseQueryV"
+- !private "9FluentKit14DatabaseSchemaV"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9FluentKit8FieldKeyO"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "s5Int64V"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- "Sj"
+- !private "Sk"
+- !private "Sm"
+- "s10SIMDScalarP"
+- !private "9FluentSQL20SQLConverterDelegateP"
+- "6SQLKit11SQLDatabaseP"
+- !private "6SQLKit10SQLDialectP"
+- !private "9FluentSQL17SQLQueryConverterV"
+- !private "9FluentSQL18SQLSchemaConverterV"
+- !private "9SQLiteNIO0A10ConnectionC"
+- !private "18FluentSQLiteDriver0B17ConverterDelegateV"
+- "9SQLiteNIO0A15DataConvertibleP"
+- !private "9SQLiteKit0A11DataEncoderV"
+- "9SQLiteNIO0A8DatabaseP"
+- !private "9SQLiteKit0A7DialectV"
+- !private "9SQLiteNIO0A3RowV"
+- !private "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "Su"
+- "s6UInt64V"
+- "SU"
+- !private "s14_ArrayProtocolP"
+- "s15_CVarArgAlignedP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "18FluentSQLiteDriver01_aB8DatabaseV"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.swiftmodule"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4884626e2ef0ce892d95324251d8e045"

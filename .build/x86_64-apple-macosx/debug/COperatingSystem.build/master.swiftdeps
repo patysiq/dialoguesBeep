@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "cc2a2dc4654bb5df6e126282147f6484"
+build_time: [1592049824, 217300000]
+inputs:
+  "/Users/patriciasampaio/Desktop/Estudos Academy/API/beepApi/.build/checkouts/vapor/Sources/COperatingSystem/Exports.swift": [1591876895, 986667419]
